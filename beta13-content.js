@@ -60,6 +60,7 @@
         { value: "5 Social attributes", label: "Persistent personalities", icon: "sparkles" }
       ])}
       ${section("Beta 13 Preview Guide", `
+        <p>This wiki covers the built-in <strong>1.0.0-beta.13 preview</strong>. It is written for players: use it to learn what to do in game, what a warning means, and which rules can change on a server.</p>
         <p><strong>Back up your saves before testing.</strong> The client shows a one-time warning before you first create a world or join multiplayer. After three seconds, choose <strong>I Understand</strong> to continue. Backing out leaves the warning active for next time.</p>
         <p>Server configuration and datapacks can change prices, limits, quests, dialogue, rewards, and feature availability. When a live screen or tooltip differs from this guide, the value shown in game is authoritative.</p>
       `)}
