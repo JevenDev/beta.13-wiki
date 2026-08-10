@@ -17,7 +17,7 @@
           packName: "Villager Retaliation Pack",
           description: "Custom Villager Retaliation datapack",
           packVersion: currentPackVersion,
-          packFormat: 34,
+          packFormat: 48,
           namespace: "my_pack",
           slug: "my_pack",
           locale: "en_us"
@@ -913,6 +913,11 @@
           state.extraFiles[path] = stripTextBom(source);
           if (isQuestV1Resource(json)) upsertQuestV1Import(state, json, path);
         }
+        return true;
+      }
+
+      if (/^data\/[^/]+\/quest_pools\/.+\.json$/.test(path)) {
+        state.extraFiles[path] = stripTextBom(source);
         return true;
       }
 

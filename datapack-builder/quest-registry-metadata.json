@@ -296,6 +296,17 @@
         ]
       },
       {
+        "id": "profile_attribute",
+        "aliases": [
+          "attribute_reward",
+          "social_attribute"
+        ],
+        "kind": "profile_attribute",
+        "capabilities": [
+          "provider_live"
+        ]
+      },
+      {
         "id": "memory",
         "aliases": [
           "memory_event"
@@ -377,6 +388,17 @@
           "provider_live",
           "provider_snapshot",
           "world_known"
+        ]
+      },
+      {
+        "id": "draw_weapon",
+        "aliases": [
+          "arm",
+          "ready_weapon"
+        ],
+        "kind": "draw_weapon",
+        "capabilities": [
+          "provider_live"
         ]
       },
       {
@@ -583,6 +605,20 @@
         ],
         "has_runtime": true,
         "implementation": "FactObjectiveType"
+      },
+      {
+        "id": "criterion",
+        "aliases": [
+          "criterion_event",
+          "custom_event"
+        ],
+        "type": "criterion",
+        "requirements": [
+          "counter",
+          "event"
+        ],
+        "has_runtime": true,
+        "implementation": "CriterionObjectiveType"
       },
       {
         "id": "condition",
@@ -1904,10 +1940,13 @@
       "enum": [
         "add_counter",
         "add_tag",
+        "arm",
+        "attribute_reward",
         "branch_transition",
         "clear_tag",
         "counter",
         "dialogue",
+        "draw_weapon",
         "experience",
         "fact",
         "flash_tracker",
@@ -1924,6 +1963,7 @@
         "message",
         "notification",
         "notify",
+        "profile_attribute",
         "quest",
         "quest_action",
         "quest_response_transition",
@@ -1931,6 +1971,7 @@
         "quest_tag",
         "quest_tracker",
         "quest_transition",
+        "ready_weapon",
         "remove_tag",
         "rep",
         "reputation",
@@ -1941,6 +1982,7 @@
         "set_stage",
         "set_tag",
         "set_variable",
+        "social_attribute",
         "stage",
         "start_scene",
         "tag",
@@ -1964,6 +2006,9 @@
         "coordinate",
         "coordinates",
         "coords",
+        "criterion",
+        "criterion_event",
+        "custom_event",
         "dialogue_choice",
         "entity_kill",
         "event",

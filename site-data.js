@@ -58,7 +58,16 @@ window.VR_WIKI_DATA = {
       "group": "courier_roads",
       "groupLabel": "Courier Roads",
       "tags": [
-        "group.courier_roads"
+        "group.courier_roads",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community",
+        "theme.exploration"
       ],
       "relationKey": "questline:courier_roads",
       "parent": "",
@@ -730,7 +739,21 @@ window.VR_WIKI_DATA = {
       "group": "courier_roads",
       "groupLabel": "Courier Roads",
       "tags": [
-        "group.courier_roads"
+        "group.courier_roads",
+        "role.side",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.expedition",
+        "theme.community",
+        "theme.exploration",
+        "feature.encounter",
+        "feature.scene",
+        "party.challenge"
       ],
       "relationKey": "questline:courier_roads",
       "parent": "villagerretaliation:wax_sealed_route",
@@ -1413,7 +1436,18 @@ window.VR_WIKI_DATA = {
       "group": "dangerous_commissions",
       "groupLabel": "Dangerous Commissions",
       "tags": [
-        "group.dangerous_commissions"
+        "group.dangerous_commissions",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.defense",
+        "theme.exploration"
       ],
       "relationKey": "questline:dangerous_commissions",
       "parent": "",
@@ -1534,14 +1568,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The mansion informants kept their word. Now the gold promised for their Nether route is due.",
           "Carry one gold block to the bastion road and bring gilded blackstone back as proof the debt reached its mark.",
-          "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block. I will make the reward worth the trouble."
+          "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Wear gold where piglins can see it, and keep the payment where brutes cannot.",
-          "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
         ],
         "reminder": [
           "The bastion mark, one gilded blackstone, and one gold block for the debt.",
@@ -1550,11 +1583,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The debt is settled, the route is proven, and no promise is chasing the village now.",
-          "Gold paid on time buys more than goods. It buys a road that stays open.",
-          "That settles it. The village will make good use of this."
+          "Gold paid on time buys more than goods. It buys a road that stays open."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -1574,7 +1605,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The mansion informants kept their word. Now the gold promised for their Nether route is due.",
                   "Carry one gold block to the bastion road and bring gilded blackstone back as proof the debt reached its mark.",
-                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block. I will make the reward worth the trouble."
+                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
                 ],
                 "responses": [
                   {
@@ -1636,8 +1667,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Wear gold where piglins can see it, and keep the payment where brutes cannot.",
-                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
                 ]
               },
               {
@@ -1727,8 +1757,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the debt waits, but Nether debts grow dangerous when ignored.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the debt waits, but Nether debts grow dangerous when ignored."
                 ]
               },
               {
@@ -1790,8 +1819,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The debt is settled, the route is proven, and no promise is chasing the village now.",
-                  "Gold paid on time buys more than goods. It buys a road that stays open.",
-                  "That settles it. The village will make good use of this."
+                  "Gold paid on time buys more than goods. It buys a road that stays open."
                 ]
               },
               {
@@ -1800,7 +1828,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -1860,7 +1887,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The mansion informants kept their word. Now the gold promised for their Nether route is due.",
                   "Carry one gold block to the bastion road and bring gilded blackstone back as proof the debt reached its mark.",
-                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block. I will make the reward worth the trouble."
+                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
                 ],
                 "responses": [
                   {
@@ -1922,8 +1949,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Wear gold where piglins can see it, and keep the payment where brutes cannot.",
-                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Bastion Remnant and bring 1 gilded blackstone and 1 gold block."
                 ]
               },
               {
@@ -2013,8 +2039,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the debt waits, but Nether debts grow dangerous when ignored.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the debt waits, but Nether debts grow dangerous when ignored."
                 ]
               },
               {
@@ -2076,8 +2101,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The debt is settled, the route is proven, and no promise is chasing the village now.",
-                  "Gold paid on time buys more than goods. It buys a road that stays open.",
-                  "That settles it. The village will make good use of this."
+                  "Gold paid on time buys more than goods. It buys a road that stays open."
                 ]
               },
               {
@@ -2086,7 +2110,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -2147,7 +2170,18 @@ window.VR_WIKI_DATA = {
       "group": "dangerous_commissions",
       "groupLabel": "Dangerous Commissions",
       "tags": [
-        "group.dangerous_commissions"
+        "group.dangerous_commissions",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.defense",
+        "theme.exploration"
       ],
       "relationKey": "questline:dangerous_commissions",
       "parent": "",
@@ -2273,14 +2307,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The brewing stand has bottles, powder, and no Nether Wart. That makes it a very tidy shelf.",
           "Find the fortress garden and bring back enough wart to start a village crop, plus one blaze rod to prove the route.",
-          "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod. I will make the reward worth the trouble."
+          "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Take more than one way home. Fortress bridges have a habit of ending under your feet.",
-          "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
         ],
         "reminder": [
           "The fortress mark, eight Nether Wart, and one blaze rod.",
@@ -2289,11 +2322,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The wart is alive, the rod is real, and the brewing stand finally has work.",
-          "One dangerous trip can seed every potion we brew after it.",
-          "That settles it. The village will make good use of this."
+          "One dangerous trip can seed every potion we brew after it."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -2313,7 +2344,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The brewing stand has bottles, powder, and no Nether Wart. That makes it a very tidy shelf.",
                   "Find the fortress garden and bring back enough wart to start a village crop, plus one blaze rod to prove the route.",
-                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod. I will make the reward worth the trouble."
+                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
                 ],
                 "responses": [
                   {
@@ -2375,8 +2406,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Take more than one way home. Fortress bridges have a habit of ending under your feet.",
-                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
                 ]
               },
               {
@@ -2466,8 +2496,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The brewing stand can wait. Fire is a poor reason to hurry.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The brewing stand can wait. Fire is a poor reason to hurry."
                 ]
               },
               {
@@ -2529,8 +2558,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The wart is alive, the rod is real, and the brewing stand finally has work.",
-                  "One dangerous trip can seed every potion we brew after it.",
-                  "That settles it. The village will make good use of this."
+                  "One dangerous trip can seed every potion we brew after it."
                 ]
               },
               {
@@ -2539,7 +2567,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -2599,7 +2626,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The brewing stand has bottles, powder, and no Nether Wart. That makes it a very tidy shelf.",
                   "Find the fortress garden and bring back enough wart to start a village crop, plus one blaze rod to prove the route.",
-                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod. I will make the reward worth the trouble."
+                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
                 ],
                 "responses": [
                   {
@@ -2661,8 +2688,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Take more than one way home. Fortress bridges have a habit of ending under your feet.",
-                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Nether Fortress and bring 8 Nether Wart and 1 blaze rod."
                 ]
               },
               {
@@ -2752,8 +2778,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The brewing stand can wait. Fire is a poor reason to hurry.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The brewing stand can wait. Fire is a poor reason to hurry."
                 ]
               },
               {
@@ -2815,8 +2840,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The wart is alive, the rod is real, and the brewing stand finally has work.",
-                  "One dangerous trip can seed every potion we brew after it.",
-                  "That settles it. The village will make good use of this."
+                  "One dangerous trip can seed every potion we brew after it."
                 ]
               },
               {
@@ -2825,7 +2849,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -2886,7 +2909,21 @@ window.VR_WIKI_DATA = {
       "group": "dangerous_commissions",
       "groupLabel": "Dangerous Commissions",
       "tags": [
-        "group.dangerous_commissions"
+        "group.dangerous_commissions",
+        "role.request",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.defense",
+        "theme.exploration",
+        "feature.scene",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:dangerous_commissions",
       "parent": "",
@@ -3627,7 +3664,21 @@ window.VR_WIKI_DATA = {
       "group": "dangerous_commissions",
       "groupLabel": "Dangerous Commissions",
       "tags": [
-        "group.dangerous_commissions"
+        "group.dangerous_commissions",
+        "role.side",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.defense",
+        "theme.exploration",
+        "feature.scene",
+        "party.recommended"
       ],
       "relationKey": "questline:dangerous_commissions",
       "parent": "villagerretaliation:trial_chamber_recall",
@@ -3761,14 +3812,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "A Woodland Mansion is sending patrols toward roads that used to be quiet.",
           "Find the house, bring down its evoker, and return with a totem so no one can dismiss the warning.",
-          "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds. I will make the reward worth the trouble."
+          "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Do not mistake carpet for safety. Every quiet room in that house is waiting for a reason.",
-          "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
         ],
         "reminder": [
           "The mansion mark, one evoker, a totem in hand, and twelve emeralds for the informants.",
@@ -3777,11 +3827,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The house still stands, but its omen is broken and its patrol road is known.",
-          "A totem on the table is proof enough. The village will remember who carried it home.",
-          "That settles it. The village will make good use of this."
+          "A totem on the table is proof enough. The village will remember who carried it home."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -3801,7 +3849,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "A Woodland Mansion is sending patrols toward roads that used to be quiet.",
                   "Find the house, bring down its evoker, and return with a totem so no one can dismiss the warning.",
-                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds. I will make the reward worth the trouble."
+                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
                 ],
                 "responses": [
                   {
@@ -3863,8 +3911,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Do not mistake carpet for safety. Every quiet room in that house is waiting for a reason.",
-                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
                 ]
               },
               {
@@ -3954,8 +4001,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep clear of dark-oak roads until the patrols thin.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep clear of dark-oak roads until the patrols thin."
                 ]
               },
               {
@@ -4017,8 +4063,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The house still stands, but its omen is broken and its patrol road is known.",
-                  "A totem on the table is proof enough. The village will remember who carried it home.",
-                  "That settles it. The village will make good use of this."
+                  "A totem on the table is proof enough. The village will remember who carried it home."
                 ]
               },
               {
@@ -4027,7 +4072,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -4087,7 +4131,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "A Woodland Mansion is sending patrols toward roads that used to be quiet.",
                   "Find the house, bring down its evoker, and return with a totem so no one can dismiss the warning.",
-                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds. I will make the reward worth the trouble."
+                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
                 ],
                 "responses": [
                   {
@@ -4149,8 +4193,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Do not mistake carpet for safety. Every quiet room in that house is waiting for a reason.",
-                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Woodland Mansion, defeat 1 evoker, and return with a totem and 12 emeralds."
                 ]
               },
               {
@@ -4240,8 +4283,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep clear of dark-oak roads until the patrols thin.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep clear of dark-oak roads until the patrols thin."
                 ]
               },
               {
@@ -4303,8 +4345,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The house still stands, but its omen is broken and its patrol road is known.",
-                  "A totem on the table is proof enough. The village will remember who carried it home.",
-                  "That settles it. The village will make good use of this."
+                  "A totem on the table is proof enough. The village will remember who carried it home."
                 ]
               },
               {
@@ -4313,7 +4354,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -4374,7 +4414,16 @@ window.VR_WIKI_DATA = {
       "group": "deep_delvers",
       "groupLabel": "Deep Delvers",
       "tags": [
-        "group.deep_delvers"
+        "group.deep_delvers",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship",
+        "theme.exploration"
       ],
       "relationKey": "questline:deep_delvers",
       "parent": "",
@@ -4472,14 +4521,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The village stands on stone we have never asked a useful question.",
           "Open a proper shaft below the bell and bring up the first raw iron.",
-          "Mine 64 stone or deepslate and bring 16 raw iron. I will make the reward worth the trouble."
+          "Mine 64 stone or deepslate and bring 16 raw iron."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Brace the entrance as you go. A mine should not begin with a rescue.",
-          "Mine 64 stone or deepslate and bring 16 raw iron.",
-          "Good. I will keep a place clear for what you bring back."
+          "Mine 64 stone or deepslate and bring 16 raw iron."
         ],
         "reminder": [
           "Sixty-four stone broken, sixteen raw iron brought to the smithy.",
@@ -4488,11 +4536,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The shaft is open and the first iron is honest. We can build on that.",
-          "Stone below the bell has finally paid rent.",
-          "That settles it. The village will make good use of this."
+          "Stone below the bell has finally paid rent."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -4512,7 +4558,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The village stands on stone we have never asked a useful question.",
                   "Open a proper shaft below the bell and bring up the first raw iron.",
-                  "Mine 64 stone or deepslate and bring 16 raw iron. I will make the reward worth the trouble."
+                  "Mine 64 stone or deepslate and bring 16 raw iron."
                 ],
                 "responses": [
                   {
@@ -4574,8 +4620,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Brace the entrance as you go. A mine should not begin with a rescue.",
-                  "Mine 64 stone or deepslate and bring 16 raw iron.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Mine 64 stone or deepslate and bring 16 raw iron."
                 ]
               },
               {
@@ -4665,8 +4710,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The stone has waited longer than we have. It can wait.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The stone has waited longer than we have. It can wait."
                 ]
               },
               {
@@ -4728,8 +4772,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The shaft is open and the first iron is honest. We can build on that.",
-                  "Stone below the bell has finally paid rent.",
-                  "That settles it. The village will make good use of this."
+                  "Stone below the bell has finally paid rent."
                 ]
               },
               {
@@ -4738,7 +4781,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -4798,7 +4840,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The village stands on stone we have never asked a useful question.",
                   "Open a proper shaft below the bell and bring up the first raw iron.",
-                  "Mine 64 stone or deepslate and bring 16 raw iron. I will make the reward worth the trouble."
+                  "Mine 64 stone or deepslate and bring 16 raw iron."
                 ],
                 "responses": [
                   {
@@ -4860,8 +4902,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Brace the entrance as you go. A mine should not begin with a rescue.",
-                  "Mine 64 stone or deepslate and bring 16 raw iron.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Mine 64 stone or deepslate and bring 16 raw iron."
                 ]
               },
               {
@@ -4951,8 +4992,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The stone has waited longer than we have. It can wait.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The stone has waited longer than we have. It can wait."
                 ]
               },
               {
@@ -5014,8 +5054,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The shaft is open and the first iron is honest. We can build on that.",
-                  "Stone below the bell has finally paid rent.",
-                  "That settles it. The village will make good use of this."
+                  "Stone below the bell has finally paid rent."
                 ]
               },
               {
@@ -5024,7 +5063,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -5086,7 +5124,18 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Deep Delvers",
       "tags": [
         "group.deep_delvers",
-        "branching"
+        "role.story",
+        "activity.build",
+        "activity.choice",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship",
+        "theme.exploration",
+        "feature.branching"
       ],
       "relationKey": "questline:deep_delvers",
       "parent": "villagerretaliation:below_the_bell",
@@ -5233,14 +5282,14 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-          "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+          "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
         ],
         "accept": "Lay the rails",
         "decline": "Not yet.",
         "started": [],
         "reminder": [
           "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-          "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first.",
+          "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies.",
           "Lay twenty-four rails and bring a minecart to test the line.",
           "Rails, then. Give every slope a level thought before you set iron on it.",
           "Set sixteen log braces and hang four lanterns through the first stretch.",
@@ -5270,7 +5319,7 @@ window.VR_WIKI_DATA = {
                 "label": "Mark the Shaft",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ],
                 "responses": [
                   {
@@ -5306,7 +5355,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Mark the Shaft",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ],
                 "responses": [
                   {
@@ -5353,7 +5402,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ]
               },
               {
@@ -5677,7 +5726,7 @@ window.VR_WIKI_DATA = {
                 "label": "Mark the Shaft",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ],
                 "responses": [
                   {
@@ -5713,7 +5762,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Mark the Shaft",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ],
                 "responses": [
                   {
@@ -5760,7 +5809,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The shaft can carry ore on rails, or hold its roof with heavy timber. We cannot afford both yet.",
-                  "Rails make distance cheap. Braces make bad stone less frightening. Choose what this mine needs first."
+                  "This choice closes the other shaft plan. Rails continue into powered freight and return transport hardware. Timber continues into spider-clearing and returns emergency supplies."
                 ]
               },
               {
@@ -6086,7 +6135,17 @@ window.VR_WIKI_DATA = {
       "group": "deep_delvers",
       "groupLabel": "Deep Delvers",
       "tags": [
-        "group.deep_delvers"
+        "group.deep_delvers",
+        "role.story",
+        "activity.build",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship",
+        "theme.exploration"
       ],
       "relationKey": "questline:deep_delvers",
       "parent": "villagerretaliation:mark_the_shaft",
@@ -6174,8 +6233,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/iron_road",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "19-28",
+            "item": "Powered Rail",
+            "count": "8-16",
             "weight": 1,
             "note": ""
           },
@@ -6202,14 +6261,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The first rails work, but the deeper slope sends full carts backward and empty carts nowhere.",
           "Power the steep run and give the mine a cart built for freight.",
-          "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart. I will make the reward worth the trouble."
+          "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Test the brake before the load. Ore is patient. Minecarts are not.",
-          "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart.",
-          "Good. I will keep a place clear for what you bring back."
+          "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
         ],
         "reminder": [
           "Eight powered rails, eight redstone torches, one freight cart.",
@@ -6218,11 +6276,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The iron road climbs under its own power. The mine can reach deeper now.",
-          "Full carts out, empty carts in. That is a mine beginning to breathe.",
-          "That settles it. The village will make good use of this."
+          "Full carts out, empty carts in. That is a mine beginning to breathe."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -6242,7 +6298,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first rails work, but the deeper slope sends full carts backward and empty carts nowhere.",
                   "Power the steep run and give the mine a cart built for freight.",
-                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart. I will make the reward worth the trouble."
+                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
                 ],
                 "responses": [
                   {
@@ -6304,8 +6360,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Test the brake before the load. Ore is patient. Minecarts are not.",
-                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
                 ]
               },
               {
@@ -6395,8 +6450,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then push carefully. The slope has already chosen a favorite direction.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then push carefully. The slope has already chosen a favorite direction."
                 ]
               },
               {
@@ -6458,8 +6512,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The iron road climbs under its own power. The mine can reach deeper now.",
-                  "Full carts out, empty carts in. That is a mine beginning to breathe.",
-                  "That settles it. The village will make good use of this."
+                  "Full carts out, empty carts in. That is a mine beginning to breathe."
                 ]
               },
               {
@@ -6468,7 +6521,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -6528,7 +6580,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first rails work, but the deeper slope sends full carts backward and empty carts nowhere.",
                   "Power the steep run and give the mine a cart built for freight.",
-                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart. I will make the reward worth the trouble."
+                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
                 ],
                 "responses": [
                   {
@@ -6590,8 +6642,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Test the brake before the load. Ore is patient. Minecarts are not.",
-                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 8 powered rails, then bring 8 redstone torches and 1 chest minecart."
                 ]
               },
               {
@@ -6681,8 +6732,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then push carefully. The slope has already chosen a favorite direction.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then push carefully. The slope has already chosen a favorite direction."
                 ]
               },
               {
@@ -6744,8 +6794,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The iron road climbs under its own power. The mine can reach deeper now.",
-                  "Full carts out, empty carts in. That is a mine beginning to breathe.",
-                  "That settles it. The village will make good use of this."
+                  "Full carts out, empty carts in. That is a mine beginning to breathe."
                 ]
               },
               {
@@ -6754,7 +6803,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -6815,7 +6863,18 @@ window.VR_WIKI_DATA = {
       "group": "deep_delvers",
       "groupLabel": "Deep Delvers",
       "tags": [
-        "group.deep_delvers"
+        "group.deep_delvers",
+        "role.story",
+        "activity.build",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship",
+        "theme.exploration"
       ],
       "relationKey": "questline:deep_delvers",
       "parent": "villagerretaliation:mark_the_shaft",
@@ -6904,8 +6963,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/timber_brace",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "19-28",
+            "item": "Oak Log",
+            "count": "16-24",
             "weight": 1,
             "note": ""
           },
@@ -6932,14 +6991,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The braces hold, but webs are pulling at the lower supports and something small is clicking behind them.",
           "Cross-brace the shaft, clear the cave spiders, and bring string as proof the nests are gone.",
-          "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string. I will make the reward worth the trouble."
+          "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Set each brace before you cut the web beside it. Roof first, heroics second.",
-          "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string.",
-          "Good. I will keep a place clear for what you bring back."
+          "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
         ],
         "reminder": [
           "Twenty-four cross-braces, four cave spiders, eight string.",
@@ -6948,11 +7006,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The roof is still, the webs are gone, and the timber road can go deeper.",
-          "Strong braces and no clicking in the dark. That is a safe shaft.",
-          "That settles it. The village will make good use of this."
+          "Strong braces and no clicking in the dark. That is a safe shaft."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -6972,7 +7028,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The braces hold, but webs are pulling at the lower supports and something small is clicking behind them.",
                   "Cross-brace the shaft, clear the cave spiders, and bring string as proof the nests are gone.",
-                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string. I will make the reward worth the trouble."
+                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
                 ],
                 "responses": [
                   {
@@ -7034,8 +7090,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Set each brace before you cut the web beside it. Roof first, heroics second.",
-                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
                 ]
               },
               {
@@ -7125,8 +7180,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then stay above the lower lantern. The spiders have claimed everything past it.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then stay above the lower lantern. The spiders have claimed everything past it."
                 ]
               },
               {
@@ -7188,8 +7242,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The roof is still, the webs are gone, and the timber road can go deeper.",
-                  "Strong braces and no clicking in the dark. That is a safe shaft.",
-                  "That settles it. The village will make good use of this."
+                  "Strong braces and no clicking in the dark. That is a safe shaft."
                 ]
               },
               {
@@ -7198,7 +7251,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -7258,7 +7310,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The braces hold, but webs are pulling at the lower supports and something small is clicking behind them.",
                   "Cross-brace the shaft, clear the cave spiders, and bring string as proof the nests are gone.",
-                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string. I will make the reward worth the trouble."
+                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
                 ],
                 "responses": [
                   {
@@ -7320,8 +7372,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Set each brace before you cut the web beside it. Roof first, heroics second.",
-                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 24 fence braces, defeat 4 cave spiders, and bring 8 string."
                 ]
               },
               {
@@ -7411,8 +7462,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then stay above the lower lantern. The spiders have claimed everything past it.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then stay above the lower lantern. The spiders have claimed everything past it."
                 ]
               },
               {
@@ -7474,8 +7524,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The roof is still, the webs are gone, and the timber road can go deeper.",
-                  "Strong braces and no clicking in the dark. That is a safe shaft.",
-                  "That settles it. The village will make good use of this."
+                  "Strong braces and no clicking in the dark. That is a safe shaft."
                 ]
               },
               {
@@ -7484,7 +7533,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -7545,7 +7593,16 @@ window.VR_WIKI_DATA = {
       "group": "end_survey",
       "groupLabel": "End Survey",
       "tags": [
-        "group.end_survey"
+        "group.end_survey",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:end_survey",
       "parent": "",
@@ -7651,14 +7708,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The End does not end at the dragon island. It only stops explaining itself.",
           "Prepare eyes for bearings, membranes for slow falling, and a pumpkin for the staring locals.",
-          "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin. I will make the reward worth the trouble."
+          "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Pearls fail over the void only once. Aim with patience.",
-          "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin.",
-          "Good. I will keep a place clear for what you bring back."
+          "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
         ],
         "reminder": [
           "Four eyes, four membranes, one carved pumpkin for the outer islands.",
@@ -7667,11 +7723,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The expedition packs are ready. Now we choose which light to follow.",
-          "Everything needed to cross an empty sky, except good sense. Bring your own.",
-          "That settles it. The village will make good use of this."
+          "Everything needed to cross an empty sky, except good sense. Bring your own."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -7691,7 +7745,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The End does not end at the dragon island. It only stops explaining itself.",
                   "Prepare eyes for bearings, membranes for slow falling, and a pumpkin for the staring locals.",
-                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin. I will make the reward worth the trouble."
+                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
                 ],
                 "responses": [
                   {
@@ -7753,8 +7807,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Pearls fail over the void only once. Aim with patience.",
-                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
                 ]
               },
               {
@@ -7844,8 +7897,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The outer islands are patient and very far away.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The outer islands are patient and very far away."
                 ]
               },
               {
@@ -7907,8 +7959,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The expedition packs are ready. Now we choose which light to follow.",
-                  "Everything needed to cross an empty sky, except good sense. Bring your own.",
-                  "That settles it. The village will make good use of this."
+                  "Everything needed to cross an empty sky, except good sense. Bring your own."
                 ]
               },
               {
@@ -7917,7 +7968,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -7977,7 +8027,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The End does not end at the dragon island. It only stops explaining itself.",
                   "Prepare eyes for bearings, membranes for slow falling, and a pumpkin for the staring locals.",
-                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin. I will make the reward worth the trouble."
+                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
                 ],
                 "responses": [
                   {
@@ -8039,8 +8089,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Pearls fail over the void only once. Aim with patience.",
-                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 4 Eyes of Ender, 4 phantom membranes, and 1 carved pumpkin."
                 ]
               },
               {
@@ -8130,8 +8179,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The outer islands are patient and very far away.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The outer islands are patient and very far away."
                 ]
               },
               {
@@ -8193,8 +8241,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The expedition packs are ready. Now we choose which light to follow.",
-                  "Everything needed to cross an empty sky, except good sense. Bring your own.",
-                  "That settles it. The village will make good use of this."
+                  "Everything needed to cross an empty sky, except good sense. Bring your own."
                 ]
               },
               {
@@ -8203,7 +8250,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -8265,7 +8311,21 @@ window.VR_WIKI_DATA = {
       "groupLabel": "End Survey",
       "tags": [
         "group.end_survey",
-        "branching"
+        "role.story",
+        "activity.choice",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "feature.branching",
+        "feature.scene",
+        "party.recommended"
       ],
       "relationKey": "questline:end_survey",
       "parent": "villagerretaliation:empty_sky",
@@ -8428,14 +8488,14 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-          "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+          "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
         ],
         "accept": "Follow the chorus",
         "decline": "Not yet.",
         "started": [],
         "reminder": [
           "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-          "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them.",
+          "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance.",
           "Clear five Endermen from the trail and bring thirty-two chorus fruit.",
           "Chorus trail. Keep your feet ready for the fruit to change its mind about where you belong.",
           "Reach the city light, clear three shulkers, and bring one shell.",
@@ -8465,7 +8525,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose a Star",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ],
                 "responses": [
                   {
@@ -8501,7 +8561,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Choose a Star",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ],
                 "responses": [
                   {
@@ -8548,7 +8608,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ]
               },
               {
@@ -8872,7 +8932,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose a Star",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ],
                 "responses": [
                   {
@@ -8908,7 +8968,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Choose a Star",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ],
                 "responses": [
                   {
@@ -8955,7 +9015,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The outer islands offer two lights: chorus groves close to the ground, or End rods high in a city.",
-                  "Follow the chorus and map how the islands grow, or follow the city lights and map who built above them."
+                  "This choice closes the other survey. Chorus is safer and offers a rare Ender Chest chance. City is harder and offers this route's only, stronger Elytra chance."
                 ]
               },
               {
@@ -9281,7 +9341,16 @@ window.VR_WIKI_DATA = {
       "group": "end_survey",
       "groupLabel": "End Survey",
       "tags": [
-        "group.end_survey"
+        "group.end_survey",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:end_survey",
       "parent": "villagerretaliation:choose_a_star",
@@ -9370,8 +9439,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/chorus_trail",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "36-50",
+            "item": "Ender Pearl",
+            "count": "12-20",
             "weight": 1,
             "note": ""
           },
@@ -9382,7 +9451,7 @@ window.VR_WIKI_DATA = {
             "note": ""
           },
           {
-            "item": "Elytra",
+            "item": "Ender Chest",
             "count": "1",
             "weight": 1,
             "note": ""
@@ -9398,14 +9467,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The first chorus mark is true. Now map how the groves spread from island to island.",
           "Harvest living flowers, cook the fruit, and bring stone that can grow them near the archive.",
-          "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone. I will make the reward worth the trouble."
+          "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Cut the flowers first. A chorus plant without its crown is only a purple ladder falling apart.",
-          "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone.",
-          "Good. I will keep a place clear for what you bring back."
+          "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
         ],
         "reminder": [
           "Eight flowers harvested, sixteen popped fruit, thirty-two End stone.",
@@ -9414,11 +9482,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The chorus trail is mapped from root to flower. The living branch is complete.",
-          "We can grow a small piece of the outer End where the archive can watch it.",
-          "That settles it. The village will make good use of this."
+          "We can grow a small piece of the outer End where the archive can watch it."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -9438,7 +9504,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first chorus mark is true. Now map how the groves spread from island to island.",
                   "Harvest living flowers, cook the fruit, and bring stone that can grow them near the archive.",
-                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone. I will make the reward worth the trouble."
+                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
                 ],
                 "responses": [
                   {
@@ -9500,8 +9566,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Cut the flowers first. A chorus plant without its crown is only a purple ladder falling apart.",
-                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
                 ]
               },
               {
@@ -9591,8 +9656,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then let the chorus keep growing in every direction at once.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then let the chorus keep growing in every direction at once."
                 ]
               },
               {
@@ -9654,8 +9718,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The chorus trail is mapped from root to flower. The living branch is complete.",
-                  "We can grow a small piece of the outer End where the archive can watch it.",
-                  "That settles it. The village will make good use of this."
+                  "We can grow a small piece of the outer End where the archive can watch it."
                 ]
               },
               {
@@ -9664,7 +9727,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -9724,7 +9786,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first chorus mark is true. Now map how the groves spread from island to island.",
                   "Harvest living flowers, cook the fruit, and bring stone that can grow them near the archive.",
-                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone. I will make the reward worth the trouble."
+                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
                 ],
                 "responses": [
                   {
@@ -9786,8 +9848,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Cut the flowers first. A chorus plant without its crown is only a purple ladder falling apart.",
-                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Harvest 8 chorus flowers and bring 16 popped chorus fruit and 32 End stone."
                 ]
               },
               {
@@ -9877,8 +9938,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then let the chorus keep growing in every direction at once.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then let the chorus keep growing in every direction at once."
                 ]
               },
               {
@@ -9940,8 +10000,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The chorus trail is mapped from root to flower. The living branch is complete.",
-                  "We can grow a small piece of the outer End where the archive can watch it.",
-                  "That settles it. The village will make good use of this."
+                  "We can grow a small piece of the outer End where the archive can watch it."
                 ]
               },
               {
@@ -9950,7 +10009,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -10011,7 +10069,18 @@ window.VR_WIKI_DATA = {
       "group": "end_survey",
       "groupLabel": "End Survey",
       "tags": [
-        "group.end_survey"
+        "group.end_survey",
+        "role.story",
+        "activity.build",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:end_survey",
       "parent": "villagerretaliation:choose_a_star",
@@ -10116,13 +10185,13 @@ window.VR_WIKI_DATA = {
           {
             "item": "Diamond",
             "count": "3-5",
-            "weight": 2,
+            "weight": 1,
             "note": ""
           },
           {
             "item": "Elytra",
             "count": "1",
-            "weight": 1,
+            "weight": 2,
             "note": ""
           }
         ]
@@ -10136,14 +10205,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "One city light is marked. The last survey must make the road home visible too.",
           "Climb the tower, set End rods along the return, and recover shells for the archive.",
-          "Survey the marked End City, place 12 End rods, and bring 2 shulker shells. I will make the reward worth the trouble."
+          "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Place the first rod where the gateway disappears behind you. Pride is a poor return marker.",
-          "Survey the marked End City, place 12 End rods, and bring 2 shulker shells.",
-          "Good. I will keep a place clear for what you bring back."
+          "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
         ],
         "reminder": [
           "The tower survey, twelve End rods placed, two shells returned.",
@@ -10152,11 +10220,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The pale towers and the road home share one map now. The city branch is complete.",
-          "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets.",
-          "That settles it. The village will make good use of this."
+          "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -10176,7 +10242,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "One city light is marked. The last survey must make the road home visible too.",
                   "Climb the tower, set End rods along the return, and recover shells for the archive.",
-                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells. I will make the reward worth the trouble."
+                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
                 ],
                 "responses": [
                   {
@@ -10238,8 +10304,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Place the first rod where the gateway disappears behind you. Pride is a poor return marker.",
-                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
                 ]
               },
               {
@@ -10329,8 +10394,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then do not climb a tower you cannot find your way down from.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then do not climb a tower you cannot find your way down from."
                 ]
               },
               {
@@ -10392,8 +10456,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The pale towers and the road home share one map now. The city branch is complete.",
-                  "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets.",
-                  "That settles it. The village will make good use of this."
+                  "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets."
                 ]
               },
               {
@@ -10402,7 +10465,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -10462,7 +10524,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "One city light is marked. The last survey must make the road home visible too.",
                   "Climb the tower, set End rods along the return, and recover shells for the archive.",
-                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells. I will make the reward worth the trouble."
+                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
                 ],
                 "responses": [
                   {
@@ -10524,8 +10586,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Place the first rod where the gateway disappears behind you. Pride is a poor return marker.",
-                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Survey the marked End City, place 12 End rods, and bring 2 shulker shells."
                 ]
               },
               {
@@ -10615,8 +10676,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then do not climb a tower you cannot find your way down from.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then do not climb a tower you cannot find your way down from."
                 ]
               },
               {
@@ -10678,8 +10738,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The pale towers and the road home share one map now. The city branch is complete.",
-                  "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets.",
-                  "That settles it. The village will make good use of this."
+                  "The End City has a bearing, a lit return, and two fewer shulkers' worth of secrets."
                 ]
               },
               {
@@ -10688,7 +10747,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -10749,7 +10807,15 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.exploration"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "",
@@ -11539,7 +11605,17 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.choice",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.exploration",
+        "feature.branching"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:blank_map_promise",
@@ -11660,7 +11736,7 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "A blank atlas can become a diary, a warning, or a trophy shelf. We should choose better than that.",
-          "Bring fine pens and glass for the index. Then choose the atlas principle: reliable roads, or strange wonders."
+          "Bring fine pens and glass for the index. Then make a permanent atlas choice: roads prepare a compass-and-iron route kit, while wonders prepare a spyglass-and-amethyst survey kit for the first expedition."
         ],
         "accept": "Prepare the index",
         "decline": "Another time",
@@ -11669,7 +11745,7 @@ window.VR_WIKI_DATA = {
         ],
         "reminder": [
           "Bring 2 feathers and 6 glass panes. Once the index is ready, choose whether the atlas favors roads or wonders.",
-          "Choose roads if the atlas should favor safe returns, or wonders if it should favor rare discoveries."
+          "Choose roads for a compass-and-iron expedition kit, or wonders for a spyglass-and-amethyst kit. The principle is permanent."
         ],
         "completed": [
           "I have inked roads into the index. The atlas will look for ways back before it looks for glory.",
@@ -11691,7 +11767,7 @@ window.VR_WIKI_DATA = {
                 "label": "Ink and Bearings",
                 "lines": [
                   "A blank atlas can become a diary, a warning, or a trophy shelf. We should choose better than that.",
-                  "Bring fine pens and glass for the index. Then choose the atlas principle: reliable roads, or strange wonders."
+                  "Bring fine pens and glass for the index. Then make a permanent atlas choice: roads prepare a compass-and-iron route kit, while wonders prepare a spyglass-and-amethyst survey kit for the first expedition."
                 ],
                 "responses": [
                   {
@@ -11842,7 +11918,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Ink and Bearings",
                 "lines": [
-                  "The index is ready. Choose whether the atlas should privilege safe roads or the rare marks people cross oceans to see."
+                  "The index is ready. This principle is permanent: roads reward practical navigation supplies on the first expedition. Wonders reward rare survey tools."
                 ],
                 "responses": [
                   {
@@ -11889,7 +11965,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose roads if the atlas should favor safe returns, or wonders if it should favor rare discoveries."
+                  "Choose roads for a compass-and-iron expedition kit, or wonders for a spyglass-and-amethyst kit. The principle is permanent."
                 ]
               },
               {
@@ -12065,7 +12141,7 @@ window.VR_WIKI_DATA = {
                 "label": "Ink and Bearings",
                 "lines": [
                   "A blank atlas can become a diary, a warning, or a trophy shelf. We should choose better than that.",
-                  "Bring fine pens and glass for the index. Then choose the atlas principle: reliable roads, or strange wonders."
+                  "Bring fine pens and glass for the index. Then make a permanent atlas choice: roads prepare a compass-and-iron route kit, while wonders prepare a spyglass-and-amethyst survey kit for the first expedition."
                 ],
                 "responses": [
                   {
@@ -12216,7 +12292,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Ink and Bearings",
                 "lines": [
-                  "The index is ready. Choose whether the atlas should privilege safe roads or the rare marks people cross oceans to see."
+                  "The index is ready. This principle is permanent: roads reward practical navigation supplies on the first expedition. Wonders reward rare survey tools."
                 ],
                 "responses": [
                   {
@@ -12263,7 +12339,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose roads if the atlas should favor safe returns, or wonders if it should favor rare discoveries."
+                  "Choose roads for a compass-and-iron expedition kit, or wonders for a spyglass-and-amethyst kit. The principle is permanent."
                 ]
               },
               {
@@ -12476,7 +12552,17 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:ink_and_bearings",
@@ -13207,7 +13293,16 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.exploration"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:first_far_marker",
@@ -13924,7 +14019,21 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.choice",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.exploration",
+        "feature.branching",
+        "feature.encounter",
+        "feature.scene",
+        "party.challenge"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:roads_that_remember",
@@ -14060,13 +14169,13 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The atlas has pages, markers, and memory. Now it needs judgment.",
-          "Choose the test: a safer supply road anyone can repeat, or a riskier road that proves the atlas can survive bad company."
+          "Choose the permanent test route: safe asks for four lanterns and eight bread. Risky begins a three-pillager ambush and guarantees a crossbow proof item with the larger combat bonus."
         ],
         "accept": "Take the safer road",
         "decline": "Another time",
         "started": [],
         "reminder": [
-          "Choose the safer road for lanterns and bread, or the riskier road for a pillager patrol and crossbow proof.",
+          "This choice is permanent: safe needs four lanterns and eight bread. Risky launches three pillagers, guarantees the proof crossbow, and pays the larger bonus.",
           "Bring 4 lanterns and 8 bread for the safer route test.",
           "Defeat 3 pillagers and carry a crossbow as proof of the riskier route test."
         ],
@@ -14090,7 +14199,7 @@ window.VR_WIKI_DATA = {
                 "label": "The Atlas Test",
                 "lines": [
                   "The atlas has pages, markers, and memory. Now it needs judgment.",
-                  "Choose the test: a safer supply road anyone can repeat, or a riskier road that proves the atlas can survive bad company."
+                  "Choose the permanent test route: safe asks for four lanterns and eight bread. Risky begins a three-pillager ambush and guarantees a crossbow proof item with the larger combat bonus."
                 ],
                 "responses": [
                   {
@@ -14125,7 +14234,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About The Atlas Test",
                 "lines": [
-                  "Choose whether the atlas should prove a safer road or a riskier one."
+                  "This test choice is permanent. Safe is a supply hand-in. Risky is an immediate three-pillager ambush with a guaranteed crossbow and larger bonus."
                 ],
                 "responses": [
                   {
@@ -14153,7 +14262,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose the safer road for lanterns and bread, or the riskier road for a pillager patrol and crossbow proof."
+                  "This choice is permanent: safe needs four lanterns and eight bread. Risky launches three pillagers, guarantees the proof crossbow, and pays the larger bonus."
                 ]
               },
               {
@@ -14458,7 +14567,7 @@ window.VR_WIKI_DATA = {
                 "label": "The Atlas Test",
                 "lines": [
                   "The atlas has pages, markers, and memory. Now it needs judgment.",
-                  "Choose the test: a safer supply road anyone can repeat, or a riskier road that proves the atlas can survive bad company."
+                  "Choose the permanent test route: safe asks for four lanterns and eight bread. Risky begins a three-pillager ambush and guarantees a crossbow proof item with the larger combat bonus."
                 ],
                 "responses": [
                   {
@@ -14493,7 +14602,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About The Atlas Test",
                 "lines": [
-                  "Choose whether the atlas should prove a safer road or a riskier one."
+                  "This test choice is permanent. Safe is a supply hand-in. Risky is an immediate three-pillager ambush with a guaranteed crossbow and larger bonus."
                 ],
                 "responses": [
                   {
@@ -14521,7 +14630,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose the safer road for lanterns and bread, or the riskier road for a pillager patrol and crossbow proof."
+                  "This choice is permanent: safe needs four lanterns and eight bread. Risky launches three pillagers, guarantees the proof crossbow, and pays the larger bonus."
                 ]
               },
               {
@@ -14828,7 +14937,20 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.choice",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "feature.branching",
+        "feature.scene"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:the_atlas_test",
@@ -14988,13 +15110,13 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The atlas has paper, bearings, field proof, memory, and judgment. Now it asks for a horizon.",
-          "Choose the drowned coast if you want the atlas to follow water and ruins. Choose the dark roof road if you want it to follow danger under old timber."
+          "This final choice closes the other horizon. Coast continues through monuments and pays in conduit materials. Dark roof continues through a mansion and pays in mansion treasure."
         ],
         "accept": "Choose the drowned coast",
         "decline": "Another time",
         "started": [],
         "reminder": [
-          "Choose the drowned coast for water, prismarine, and ocean ruins. Choose the dark roof road for books, illagers, and a mansion horizon.",
+          "This choice closes the other horizon. Coast leads to guardian work and conduit materials. Dark roof leads to illagers and rare mansion treasure.",
           "Reach the Ocean Monument near the mark, then bring 4 prismarine crystals and 4 prismarine shards to bind the drowned coast horizon.",
           "Reach the Woodland Mansion near the mark, then bring 6 books and carry a Totem of Undying to bind the dark roof road."
         ],
@@ -15018,7 +15140,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose the Horizon",
                 "lines": [
                   "The atlas has paper, bearings, field proof, memory, and judgment. Now it asks for a horizon.",
-                  "Choose the drowned coast if you want the atlas to follow water and ruins. Choose the dark roof road if you want it to follow danger under old timber."
+                  "This final choice closes the other horizon. Coast continues through monuments and pays in conduit materials. Dark roof continues through a mansion and pays in mansion treasure."
                 ],
                 "responses": [
                   {
@@ -15053,7 +15175,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About the Horizon",
                 "lines": [
-                  "This is the final fork. Coast or dark roof. Water-stone or old timber."
+                  "This final fork closes the other route: coast means monuments and conduit materials. Dark roof means a mansion and rare mansion treasure."
                 ],
                 "responses": [
                   {
@@ -15081,7 +15203,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose the drowned coast for water, prismarine, and ocean ruins. Choose the dark roof road for books, illagers, and a mansion horizon."
+                  "This choice closes the other horizon. Coast leads to guardian work and conduit materials. Dark roof leads to illagers and rare mansion treasure."
                 ]
               },
               {
@@ -15386,7 +15508,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose the Horizon",
                 "lines": [
                   "The atlas has paper, bearings, field proof, memory, and judgment. Now it asks for a horizon.",
-                  "Choose the drowned coast if you want the atlas to follow water and ruins. Choose the dark roof road if you want it to follow danger under old timber."
+                  "This final choice closes the other horizon. Coast continues through monuments and pays in conduit materials. Dark roof continues through a mansion and pays in mansion treasure."
                 ],
                 "responses": [
                   {
@@ -15421,7 +15543,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About the Horizon",
                 "lines": [
-                  "This is the final fork. Coast or dark roof. Water-stone or old timber."
+                  "This final fork closes the other route: coast means monuments and conduit materials. Dark roof means a mansion and rare mansion treasure."
                 ],
                 "responses": [
                   {
@@ -15449,7 +15571,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Choose the drowned coast for water, prismarine, and ocean ruins. Choose the dark roof road for books, illagers, and a mansion horizon."
+                  "This choice closes the other horizon. Coast leads to guardian work and conduit materials. Dark roof leads to illagers and rare mansion treasure."
                 ]
               },
               {
@@ -15756,7 +15878,19 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "party.recommended"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:choose_the_horizon",
@@ -16433,7 +16567,19 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "party.recommended"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:choose_the_horizon",
@@ -17112,7 +17258,17 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:choose_the_horizon",
@@ -17709,7 +17865,17 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:nether_meridian",
@@ -18298,7 +18464,19 @@ window.VR_WIKI_DATA = {
       "group": "exploration",
       "groupLabel": "Exploration",
       "tags": [
-        "group.exploration"
+        "group.exploration",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "party.recommended"
       ],
       "relationKey": "questline:cartographers_atlas",
       "parent": "villagerretaliation:eye_of_the_last_room",
@@ -18901,7 +19079,16 @@ window.VR_WIKI_DATA = {
       "group": "field_medicine",
       "groupLabel": "Field Medicine",
       "tags": [
-        "group.field_medicine"
+        "group.field_medicine",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community",
+        "theme.defense"
       ],
       "relationKey": "questline:field_medicine",
       "parent": "",
@@ -19573,7 +19760,20 @@ window.VR_WIKI_DATA = {
       "group": "field_medicine",
       "groupLabel": "Field Medicine",
       "tags": [
-        "group.field_medicine"
+        "group.field_medicine",
+        "role.side",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.defense",
+        "feature.encounter",
+        "feature.scene",
+        "party.challenge"
       ],
       "relationKey": "questline:field_medicine",
       "parent": "villagerretaliation:clean_bandages",
@@ -20254,7 +20454,15 @@ window.VR_WIKI_DATA = {
       "group": "green_thumb",
       "groupLabel": "Green Thumb",
       "tags": [
-        "group.green_thumb"
+        "group.green_thumb",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community"
       ],
       "relationKey": "questline:green_thumb",
       "parent": "",
@@ -20354,14 +20562,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "There is good ground beyond the last fence, but good ground still needs hands.",
           "Bring seed, water, and a hoe that will survive more than one row.",
-          "Bring 24 wheat seeds, an iron hoe, and a water bucket. I will make the reward worth the trouble."
+          "Bring 24 wheat seeds, an iron hoe, and a water bucket."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Keep the seeds dry. The water can wait until the furrows are open.",
-          "Bring 24 wheat seeds, an iron hoe, and a water bucket.",
-          "Good. I will keep a place clear for what you bring back."
+          "Bring 24 wheat seeds, an iron hoe, and a water bucket."
         ],
         "reminder": [
           "Seeds for the rows, an iron hoe, and one bucket of water.",
@@ -20370,11 +20577,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "That is everything a bare patch needs to become a field.",
-          "The furrows can begin at sunrise. You have given them a fair start.",
-          "That settles it. The village will make good use of this."
+          "The furrows can begin at sunrise. You have given them a fair start."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -20394,7 +20599,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "There is good ground beyond the last fence, but good ground still needs hands.",
                   "Bring seed, water, and a hoe that will survive more than one row.",
-                  "Bring 24 wheat seeds, an iron hoe, and a water bucket. I will make the reward worth the trouble."
+                  "Bring 24 wheat seeds, an iron hoe, and a water bucket."
                 ],
                 "responses": [
                   {
@@ -20456,8 +20661,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the seeds dry. The water can wait until the furrows are open.",
-                  "Bring 24 wheat seeds, an iron hoe, and a water bucket.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 24 wheat seeds, an iron hoe, and a water bucket."
                 ]
               },
               {
@@ -20547,8 +20751,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The ground will keep. We should not open it without a plan.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The ground will keep. We should not open it without a plan."
                 ]
               },
               {
@@ -20610,8 +20813,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "That is everything a bare patch needs to become a field.",
-                  "The furrows can begin at sunrise. You have given them a fair start.",
-                  "That settles it. The village will make good use of this."
+                  "The furrows can begin at sunrise. You have given them a fair start."
                 ]
               },
               {
@@ -20620,7 +20822,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -20680,7 +20881,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "There is good ground beyond the last fence, but good ground still needs hands.",
                   "Bring seed, water, and a hoe that will survive more than one row.",
-                  "Bring 24 wheat seeds, an iron hoe, and a water bucket. I will make the reward worth the trouble."
+                  "Bring 24 wheat seeds, an iron hoe, and a water bucket."
                 ],
                 "responses": [
                   {
@@ -20742,8 +20943,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the seeds dry. The water can wait until the furrows are open.",
-                  "Bring 24 wheat seeds, an iron hoe, and a water bucket.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 24 wheat seeds, an iron hoe, and a water bucket."
                 ]
               },
               {
@@ -20833,8 +21033,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The ground will keep. We should not open it without a plan.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The ground will keep. We should not open it without a plan."
                 ]
               },
               {
@@ -20896,8 +21095,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "That is everything a bare patch needs to become a field.",
-                  "The furrows can begin at sunrise. You have given them a fair start.",
-                  "That settles it. The village will make good use of this."
+                  "The furrows can begin at sunrise. You have given them a fair start."
                 ]
               },
               {
@@ -20906,7 +21104,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -20968,7 +21165,17 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Green Thumb",
       "tags": [
         "group.green_thumb",
-        "branching"
+        "role.story",
+        "activity.build",
+        "activity.choice",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "feature.branching"
       ],
       "relationKey": "questline:green_thumb",
       "parent": "villagerretaliation:new_furrows",
@@ -21108,15 +21315,15 @@ window.VR_WIKI_DATA = {
       ],
       "dialogue": {
         "offer": [
-          "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-          "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+          "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+          "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
         ],
         "accept": "Build the canals",
         "decline": "Not yet.",
         "started": [],
         "reminder": [
-          "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-          "Canals are steady but costly. Compost is cheaper, but someone must keep turning it.",
+          "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+          "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan.",
           "Twelve stone bricks laid for the canal, then bring the water bucket back to the field.",
           "Canals, then. Give the water clean stone edges and no place to wander.",
           "Work the composter five times and bring sixteen bone meal for the first rows.",
@@ -21145,8 +21352,8 @@ window.VR_WIKI_DATA = {
                 "title": "Offer",
                 "label": "Choose the Soil",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ],
                 "responses": [
                   {
@@ -21181,8 +21388,8 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Choose the Soil",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ],
                 "responses": [
                   {
@@ -21228,8 +21435,8 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ]
               },
               {
@@ -21552,8 +21759,8 @@ window.VR_WIKI_DATA = {
                 "title": "Offer",
                 "label": "Choose the Soil",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ],
                 "responses": [
                   {
@@ -21588,8 +21795,8 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Choose the Soil",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ],
                 "responses": [
                   {
@@ -21635,8 +21842,8 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "The field can drink from stone-lined canals, or eat from deep compost. We have enough hands for one plan.",
-                  "Canals are steady but costly. Compost is cheaper, but someone must keep turning it."
+                  "The field can follow one permanent plan: canal work returns irrigation hardware, while compost work returns restorative food.",
+                  "Canals are material-heavy but steady. Compost is renewable, but demands more repeated labor. This choice closes the other field plan."
                 ]
               },
               {
@@ -21962,7 +22169,16 @@ window.VR_WIKI_DATA = {
       "group": "green_thumb",
       "groupLabel": "Green Thumb",
       "tags": [
-        "group.green_thumb"
+        "group.green_thumb",
+        "role.story",
+        "activity.build",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community"
       ],
       "relationKey": "questline:green_thumb",
       "parent": "villagerretaliation:choose_the_soil",
@@ -22071,14 +22287,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The first channel works. Now it needs walls that will survive boots, rain, and curious sheep.",
           "Finish the stone edges and bring lily pads to shade the still corners.",
-          "Place 24 stone bricks and bring 8 lily pads. I will make the reward worth the trouble."
+          "Place 24 stone bricks and bring 8 lily pads."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Keep the corners square. Water finds every lazy gap.",
-          "Place 24 stone bricks and bring 8 lily pads.",
-          "Good. I will keep a place clear for what you bring back."
+          "Place 24 stone bricks and bring 8 lily pads."
         ],
         "reminder": [
           "Twenty-four stone bricks along the channels, eight lily pads for cover.",
@@ -22087,11 +22302,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The water reaches every bed and stays off the road. That is a proper canal.",
-          "Stone below, green shade above. The canal field is finished.",
-          "That settles it. The village will make good use of this."
+          "Stone below, green shade above. The canal field is finished."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -22111,7 +22324,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first channel works. Now it needs walls that will survive boots, rain, and curious sheep.",
                   "Finish the stone edges and bring lily pads to shade the still corners.",
-                  "Place 24 stone bricks and bring 8 lily pads. I will make the reward worth the trouble."
+                  "Place 24 stone bricks and bring 8 lily pads."
                 ],
                 "responses": [
                   {
@@ -22173,8 +22386,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the corners square. Water finds every lazy gap.",
-                  "Place 24 stone bricks and bring 8 lily pads.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 24 stone bricks and bring 8 lily pads."
                 ]
               },
               {
@@ -22264,8 +22476,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep the sheep away from the wet edge.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep the sheep away from the wet edge."
                 ]
               },
               {
@@ -22327,8 +22538,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The water reaches every bed and stays off the road. That is a proper canal.",
-                  "Stone below, green shade above. The canal field is finished.",
-                  "That settles it. The village will make good use of this."
+                  "Stone below, green shade above. The canal field is finished."
                 ]
               },
               {
@@ -22337,7 +22547,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -22397,7 +22606,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first channel works. Now it needs walls that will survive boots, rain, and curious sheep.",
                   "Finish the stone edges and bring lily pads to shade the still corners.",
-                  "Place 24 stone bricks and bring 8 lily pads. I will make the reward worth the trouble."
+                  "Place 24 stone bricks and bring 8 lily pads."
                 ],
                 "responses": [
                   {
@@ -22459,8 +22668,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the corners square. Water finds every lazy gap.",
-                  "Place 24 stone bricks and bring 8 lily pads.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 24 stone bricks and bring 8 lily pads."
                 ]
               },
               {
@@ -22550,8 +22758,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep the sheep away from the wet edge.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep the sheep away from the wet edge."
                 ]
               },
               {
@@ -22613,8 +22820,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The water reaches every bed and stays off the road. That is a proper canal.",
-                  "Stone below, green shade above. The canal field is finished.",
-                  "That settles it. The village will make good use of this."
+                  "Stone below, green shade above. The canal field is finished."
                 ]
               },
               {
@@ -22623,7 +22829,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -22684,7 +22889,15 @@ window.VR_WIKI_DATA = {
       "group": "green_thumb",
       "groupLabel": "Green Thumb",
       "tags": [
-        "group.green_thumb"
+        "group.green_thumb",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community"
       ],
       "relationKey": "questline:green_thumb",
       "parent": "villagerretaliation:choose_the_soil",
@@ -22795,14 +23008,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The first bed is rich. Now the rest of the field needs the same patience.",
           "Turn the heaps, raise the beds, and feed the first planting well.",
-          "Work composters 8 times, then bring 32 dirt and 24 bone meal. I will make the reward worth the trouble."
+          "Work composters 8 times, then bring 32 dirt and 24 bone meal."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "A good field is built twice: once from dirt, once from what we return to it.",
-          "Work composters 8 times, then bring 32 dirt and 24 bone meal.",
-          "Good. I will keep a place clear for what you bring back."
+          "Work composters 8 times, then bring 32 dirt and 24 bone meal."
         ],
         "reminder": [
           "Eight turns of the composters, thirty-two dirt, twenty-four bone meal.",
@@ -22811,11 +23023,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "Every bed is dark and ready. The compost field is finished.",
-          "Nothing wasted, every row fed. That is a field worth keeping.",
-          "That settles it. The village will make good use of this."
+          "Nothing wasted, every row fed. That is a field worth keeping."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -22835,7 +23045,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first bed is rich. Now the rest of the field needs the same patience.",
                   "Turn the heaps, raise the beds, and feed the first planting well.",
-                  "Work composters 8 times, then bring 32 dirt and 24 bone meal. I will make the reward worth the trouble."
+                  "Work composters 8 times, then bring 32 dirt and 24 bone meal."
                 ],
                 "responses": [
                   {
@@ -22897,8 +23107,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "A good field is built twice: once from dirt, once from what we return to it.",
-                  "Work composters 8 times, then bring 32 dirt and 24 bone meal.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Work composters 8 times, then bring 32 dirt and 24 bone meal."
                 ]
               },
               {
@@ -22988,8 +23197,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The heaps will keep cooking, whether we watch or not.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The heaps will keep cooking, whether we watch or not."
                 ]
               },
               {
@@ -23051,8 +23259,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "Every bed is dark and ready. The compost field is finished.",
-                  "Nothing wasted, every row fed. That is a field worth keeping.",
-                  "That settles it. The village will make good use of this."
+                  "Nothing wasted, every row fed. That is a field worth keeping."
                 ]
               },
               {
@@ -23061,7 +23268,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -23121,7 +23327,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The first bed is rich. Now the rest of the field needs the same patience.",
                   "Turn the heaps, raise the beds, and feed the first planting well.",
-                  "Work composters 8 times, then bring 32 dirt and 24 bone meal. I will make the reward worth the trouble."
+                  "Work composters 8 times, then bring 32 dirt and 24 bone meal."
                 ],
                 "responses": [
                   {
@@ -23183,8 +23389,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "A good field is built twice: once from dirt, once from what we return to it.",
-                  "Work composters 8 times, then bring 32 dirt and 24 bone meal.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Work composters 8 times, then bring 32 dirt and 24 bone meal."
                 ]
               },
               {
@@ -23274,8 +23479,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The heaps will keep cooking, whether we watch or not.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The heaps will keep cooking, whether we watch or not."
                 ]
               },
               {
@@ -23337,8 +23541,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "Every bed is dark and ready. The compost field is finished.",
-                  "Nothing wasted, every row fed. That is a field worth keeping.",
-                  "That settles it. The village will make good use of this."
+                  "Nothing wasted, every row fed. That is a field worth keeping."
                 ]
               },
               {
@@ -23347,7 +23550,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -23408,7 +23610,15 @@ window.VR_WIKI_DATA = {
       "group": "hearthbound",
       "groupLabel": "Hearthbound",
       "tags": [
-        "group.hearthbound"
+        "group.hearthbound",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community"
       ],
       "relationKey": "questline:hearthbound",
       "parent": "",
@@ -23443,8 +23653,8 @@ window.VR_WIKI_DATA = {
         {
           "id": "kindle",
           "label": "Kindle",
-          "text": "Bring a campfire and 6 charcoal.",
-          "progress": 0.55,
+          "text": "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod.",
+          "progress": 0.85,
           "hint": ""
         },
         {
@@ -23459,13 +23669,6 @@ window.VR_WIKI_DATA = {
           "label": "Bring Charcoal",
           "text": "Bring 6 charcoal so the first fire burns clean.",
           "progress": 0.55,
-          "hint": ""
-        },
-        {
-          "id": "fill_pots",
-          "label": "Fill Pots",
-          "text": "Bring 6 bowls and 6 cooked cod.",
-          "progress": 0.85,
           "hint": ""
         },
         {
@@ -23524,16 +23727,15 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "A village does not become steady because one person eats well. It becomes steady when there is a warm place people trust.",
-          "Bring a campfire and clean charcoal. After that, we can talk about what goes over the flame."
+          "Bring a campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That will give the first fire both a place and a purpose."
         ],
         "accept": "I will help set the hearth.",
         "decline": "Another time.",
         "started": [
-          "Good. Bring a campfire and 6 charcoal. Nothing grand, just the start of somewhere people can gather."
+          "Good. Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That is the complete list for this hearth."
         ],
         "reminder": [
-          "Bring 1 campfire and 6 charcoal for the shared hearth.",
-          "Bring 6 bowls and 6 cooked cod for the first shared meal."
+          "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod for the shared hearth."
         ],
         "completed": [
           "There. The first fire is not much to look at yet, but people will stand closer to it than they admit."
@@ -23546,7 +23748,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "kindle",
             "label": "Kindle",
-            "trackerText": "Bring a campfire and 6 charcoal.",
+            "trackerText": "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod.",
             "slots": [
               {
                 "slot": "offer",
@@ -23554,7 +23756,7 @@ window.VR_WIKI_DATA = {
                 "label": "Kindling",
                 "lines": [
                   "A village does not become steady because one person eats well. It becomes steady when there is a warm place people trust.",
-                  "Bring a campfire and clean charcoal. After that, we can talk about what goes over the flame."
+                  "Bring a campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That will give the first fire both a place and a purpose."
                 ],
                 "responses": [
                   {
@@ -23578,7 +23780,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Kindling",
                 "lines": [
-                  "The first fire still needs its place and its fuel. A cold hearth is only furniture."
+                  "The first fire still needs a campfire, charcoal, bowls, and cooked cod. The list will not change before the hearth is ready."
                 ],
                 "responses": [
                   {
@@ -23615,7 +23817,7 @@ window.VR_WIKI_DATA = {
                 "key": "started",
                 "label": "Start: Started",
                 "lines": [
-                  "Good. Bring a campfire and 6 charcoal. Nothing grand, just the start of somewhere people can gather."
+                  "Good. Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That is the complete list for this hearth."
                 ]
               },
               {
@@ -23633,7 +23835,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Bring 1 campfire and 6 charcoal for the shared hearth."
+                  "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod for the shared hearth."
                 ]
               },
               {
@@ -23659,67 +23861,6 @@ window.VR_WIKI_DATA = {
                 "label": "Scene: Leave",
                 "lines": [
                   "Keep the charcoal dry. Damp fuel makes everyone pretend not to complain."
-                ]
-              }
-            ]
-          },
-          {
-            "stageId": "fill_pots",
-            "label": "Fill Pots",
-            "trackerText": "Bring 6 bowls and 6 cooked cod.",
-            "slots": [
-              {
-                "slot": "reminder",
-                "title": "Reminder",
-                "label": "About Kindling",
-                "lines": [
-                  "The fire is one thing. The point of it is another. Bring bowls and cooked cod so no one has to eat standing alone."
-                ],
-                "responses": [
-                  {
-                    "id": "details",
-                    "label": "Repeat the meal.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Reminder Details"
-                  },
-                  {
-                    "id": "leave",
-                    "label": "I will gather it.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Leave"
-                  }
-                ]
-              }
-            ],
-            "choices": [],
-            "actions": [
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "reminder",
-                "label": "Reminder: Reminder",
-                "lines": [
-                  "Bring 6 bowls and 6 cooked cod for the first shared meal."
-                ]
-              },
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "unavailable",
-                "label": "Reminder: Unavailable",
-                "lines": [
-                  "The bowls can wait until the first fire is ready."
-                ]
-              }
-            ],
-            "scenes": [
-              {
-                "sceneId": "leave",
-                "label": "Scene: Leave",
-                "lines": [
-                  "A meal is better when it reaches the quiet people too."
                 ]
               }
             ]
@@ -23808,7 +23949,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "kindle",
             "label": "Kindle",
-            "trackerText": "Bring a campfire and 6 charcoal.",
+            "trackerText": "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod.",
             "slots": [
               {
                 "slot": "offer",
@@ -23816,7 +23957,7 @@ window.VR_WIKI_DATA = {
                 "label": "Kindling",
                 "lines": [
                   "A village does not become steady because one person eats well. It becomes steady when there is a warm place people trust.",
-                  "Bring a campfire and clean charcoal. After that, we can talk about what goes over the flame."
+                  "Bring a campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That will give the first fire both a place and a purpose."
                 ],
                 "responses": [
                   {
@@ -23840,7 +23981,7 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Kindling",
                 "lines": [
-                  "The first fire still needs its place and its fuel. A cold hearth is only furniture."
+                  "The first fire still needs a campfire, charcoal, bowls, and cooked cod. The list will not change before the hearth is ready."
                 ],
                 "responses": [
                   {
@@ -23877,7 +24018,7 @@ window.VR_WIKI_DATA = {
                 "key": "started",
                 "label": "Start: Started",
                 "lines": [
-                  "Good. Bring a campfire and 6 charcoal. Nothing grand, just the start of somewhere people can gather."
+                  "Good. Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod. That is the complete list for this hearth."
                 ]
               },
               {
@@ -23895,7 +24036,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Bring 1 campfire and 6 charcoal for the shared hearth."
+                  "Bring 1 campfire, 6 charcoal, 6 bowls, and 6 cooked cod for the shared hearth."
                 ]
               },
               {
@@ -23921,67 +24062,6 @@ window.VR_WIKI_DATA = {
                 "label": "Scene: Leave",
                 "lines": [
                   "Keep the charcoal dry. Damp fuel makes everyone pretend not to complain."
-                ]
-              }
-            ]
-          },
-          {
-            "stageId": "fill_pots",
-            "label": "Fill Pots",
-            "trackerText": "Bring 6 bowls and 6 cooked cod.",
-            "slots": [
-              {
-                "slot": "reminder",
-                "title": "Reminder",
-                "label": "About Kindling",
-                "lines": [
-                  "The fire is one thing. The point of it is another. Bring bowls and cooked cod so no one has to eat standing alone."
-                ],
-                "responses": [
-                  {
-                    "id": "details",
-                    "label": "Repeat the meal.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Reminder Details"
-                  },
-                  {
-                    "id": "leave",
-                    "label": "I will gather it.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Leave"
-                  }
-                ]
-              }
-            ],
-            "choices": [],
-            "actions": [
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "reminder",
-                "label": "Reminder: Reminder",
-                "lines": [
-                  "Bring 6 bowls and 6 cooked cod for the first shared meal."
-                ]
-              },
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "unavailable",
-                "label": "Reminder: Unavailable",
-                "lines": [
-                  "The bowls can wait until the first fire is ready."
-                ]
-              }
-            ],
-            "scenes": [
-              {
-                "sceneId": "leave",
-                "label": "Scene: Leave",
-                "lines": [
-                  "A meal is better when it reaches the quiet people too."
                 ]
               }
             ]
@@ -24080,7 +24160,15 @@ window.VR_WIKI_DATA = {
       "group": "hearthbound",
       "groupLabel": "Hearthbound",
       "tags": [
-        "group.hearthbound"
+        "group.hearthbound",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community"
       ],
       "relationKey": "questline:hearthbound",
       "parent": "villagerretaliation:first_fire",
@@ -24124,8 +24212,8 @@ window.VR_WIKI_DATA = {
         {
           "id": "stock_table",
           "label": "Stock Table",
-          "text": "Bring 12 bread and 12 baked potatoes.",
-          "progress": 0.65,
+          "text": "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket.",
+          "progress": 0.9,
           "hint": ""
         },
         {
@@ -24140,13 +24228,6 @@ window.VR_WIKI_DATA = {
           "label": "Bring Baked Potatoes",
           "text": "Bring 12 baked potatoes for a meal that keeps well.",
           "progress": 0.65,
-          "hint": ""
-        },
-        {
-          "id": "sweeten",
-          "label": "Sweeten",
-          "text": "Bring 8 cookies and carry 1 milk bucket.",
-          "progress": 0.9,
           "hint": ""
         },
         {
@@ -24205,16 +24286,15 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The hearth worked. Now people are pretending they only stop by for the smoke.",
-          "Help me make it a table instead of a novelty. Bread, potatoes, and something sweet enough to end a hard day without a speech."
+          "Help me make it a table instead of a novelty. Bring 12 bread, 12 baked potatoes, 8 cookies, and a milk bucket. That is the whole supper list."
         ],
         "accept": "I will help stock the table.",
         "decline": "Not today.",
         "started": [
-          "Bring 12 bread and 12 baked potatoes first. We are building a habit, not a feast."
+          "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket. That is the complete list for this supper."
         ],
         "reminder": [
-          "Bring 12 bread and 12 baked potatoes for the shared table.",
-          "Bring 8 cookies and carry 1 milk bucket for the shared table."
+          "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket for the shared table."
         ],
         "completed": [
           "Good. A shared table does not solve every trouble, but it makes fewer people face trouble hungry."
@@ -24227,7 +24307,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "stock_table",
             "label": "Stock Table",
-            "trackerText": "Bring 12 bread and 12 baked potatoes.",
+            "trackerText": "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket.",
             "slots": [
               {
                 "slot": "offer",
@@ -24235,7 +24315,7 @@ window.VR_WIKI_DATA = {
                 "label": "Supper for Everyone",
                 "lines": [
                   "The hearth worked. Now people are pretending they only stop by for the smoke.",
-                  "Help me make it a table instead of a novelty. Bread, potatoes, and something sweet enough to end a hard day without a speech."
+                  "Help me make it a table instead of a novelty. Bring 12 bread, 12 baked potatoes, 8 cookies, and a milk bucket. That is the whole supper list."
                 ],
                 "responses": [
                   {
@@ -24259,12 +24339,12 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Supper for Everyone",
                 "lines": [
-                  "A shared table needs food that holds. Bread and baked potatoes first."
+                  "The shared table still needs bread, baked potatoes, cookies, and a milk bucket. The supper list will not change."
                 ],
                 "responses": [
                   {
                     "id": "details",
-                    "label": "Repeat the first list.",
+                    "label": "Repeat the supper list.",
                     "lines": [],
                     "targetStageId": "",
                     "destination": "Scene: Reminder Details"
@@ -24296,7 +24376,7 @@ window.VR_WIKI_DATA = {
                 "key": "started",
                 "label": "Start: Started",
                 "lines": [
-                  "Bring 12 bread and 12 baked potatoes first. We are building a habit, not a feast."
+                  "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket. That is the complete list for this supper."
                 ]
               },
               {
@@ -24314,7 +24394,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Bring 12 bread and 12 baked potatoes for the shared table."
+                  "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket for the shared table."
                 ]
               },
               {
@@ -24340,67 +24420,6 @@ window.VR_WIKI_DATA = {
                 "label": "Scene: Leave",
                 "lines": [
                   "Food that keeps is food that forgives bad timing."
-                ]
-              }
-            ]
-          },
-          {
-            "stageId": "sweeten",
-            "label": "Sweeten",
-            "trackerText": "Bring 8 cookies and carry 1 milk bucket.",
-            "slots": [
-              {
-                "slot": "reminder",
-                "title": "Reminder",
-                "label": "About Supper for Everyone",
-                "lines": [
-                  "The table has weight now. Bring cookies and a milk bucket, and it may start to feel like people are expected back."
-                ],
-                "responses": [
-                  {
-                    "id": "details",
-                    "label": "Repeat the sweet list.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Reminder Details"
-                  },
-                  {
-                    "id": "leave",
-                    "label": "I will bring it.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Leave"
-                  }
-                ]
-              }
-            ],
-            "choices": [],
-            "actions": [
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "reminder",
-                "label": "Reminder: Reminder",
-                "lines": [
-                  "Bring 8 cookies and carry 1 milk bucket for the shared table."
-                ]
-              },
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "unavailable",
-                "label": "Reminder: Unavailable",
-                "lines": [
-                  "The sweets can wait until the bread and potatoes are ready."
-                ]
-              }
-            ],
-            "scenes": [
-              {
-                "sceneId": "leave",
-                "label": "Scene: Leave",
-                "lines": [
-                  "Small kindnesses are still supplies."
                 ]
               }
             ]
@@ -24489,7 +24508,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "stock_table",
             "label": "Stock Table",
-            "trackerText": "Bring 12 bread and 12 baked potatoes.",
+            "trackerText": "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket.",
             "slots": [
               {
                 "slot": "offer",
@@ -24497,7 +24516,7 @@ window.VR_WIKI_DATA = {
                 "label": "Supper for Everyone",
                 "lines": [
                   "The hearth worked. Now people are pretending they only stop by for the smoke.",
-                  "Help me make it a table instead of a novelty. Bread, potatoes, and something sweet enough to end a hard day without a speech."
+                  "Help me make it a table instead of a novelty. Bring 12 bread, 12 baked potatoes, 8 cookies, and a milk bucket. That is the whole supper list."
                 ],
                 "responses": [
                   {
@@ -24521,12 +24540,12 @@ window.VR_WIKI_DATA = {
                 "title": "Reminder",
                 "label": "About Supper for Everyone",
                 "lines": [
-                  "A shared table needs food that holds. Bread and baked potatoes first."
+                  "The shared table still needs bread, baked potatoes, cookies, and a milk bucket. The supper list will not change."
                 ],
                 "responses": [
                   {
                     "id": "details",
-                    "label": "Repeat the first list.",
+                    "label": "Repeat the supper list.",
                     "lines": [],
                     "targetStageId": "",
                     "destination": "Scene: Reminder Details"
@@ -24558,7 +24577,7 @@ window.VR_WIKI_DATA = {
                 "key": "started",
                 "label": "Start: Started",
                 "lines": [
-                  "Bring 12 bread and 12 baked potatoes first. We are building a habit, not a feast."
+                  "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket. That is the complete list for this supper."
                 ]
               },
               {
@@ -24576,7 +24595,7 @@ window.VR_WIKI_DATA = {
                 "key": "reminder",
                 "label": "Reminder: Reminder",
                 "lines": [
-                  "Bring 12 bread and 12 baked potatoes for the shared table."
+                  "Bring 12 bread, 12 baked potatoes, 8 cookies, and carry 1 milk bucket for the shared table."
                 ]
               },
               {
@@ -24602,67 +24621,6 @@ window.VR_WIKI_DATA = {
                 "label": "Scene: Leave",
                 "lines": [
                   "Food that keeps is food that forgives bad timing."
-                ]
-              }
-            ]
-          },
-          {
-            "stageId": "sweeten",
-            "label": "Sweeten",
-            "trackerText": "Bring 8 cookies and carry 1 milk bucket.",
-            "slots": [
-              {
-                "slot": "reminder",
-                "title": "Reminder",
-                "label": "About Supper for Everyone",
-                "lines": [
-                  "The table has weight now. Bring cookies and a milk bucket, and it may start to feel like people are expected back."
-                ],
-                "responses": [
-                  {
-                    "id": "details",
-                    "label": "Repeat the sweet list.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Reminder Details"
-                  },
-                  {
-                    "id": "leave",
-                    "label": "I will bring it.",
-                    "lines": [],
-                    "targetStageId": "",
-                    "destination": "Scene: Leave"
-                  }
-                ]
-              }
-            ],
-            "choices": [],
-            "actions": [
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "reminder",
-                "label": "Reminder: Reminder",
-                "lines": [
-                  "Bring 8 cookies and carry 1 milk bucket for the shared table."
-                ]
-              },
-              {
-                "sceneId": "reminder_details",
-                "action": "remind",
-                "key": "unavailable",
-                "label": "Reminder: Unavailable",
-                "lines": [
-                  "The sweets can wait until the bread and potatoes are ready."
-                ]
-              }
-            ],
-            "scenes": [
-              {
-                "sceneId": "leave",
-                "label": "Scene: Leave",
-                "lines": [
-                  "Small kindnesses are still supplies."
                 ]
               }
             ]
@@ -24761,7 +24719,16 @@ window.VR_WIKI_DATA = {
       "group": "last_ember",
       "groupLabel": "Last Ember",
       "tags": [
-        "group.last_ember"
+        "group.last_ember",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:last_ember",
       "parent": "",
@@ -25291,7 +25258,19 @@ window.VR_WIKI_DATA = {
       "group": "last_ember",
       "groupLabel": "Last Ember",
       "tags": [
-        "group.last_ember"
+        "group.last_ember",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery",
+        "party.recommended"
       ],
       "relationKey": "questline:last_ember",
       "parent": "villagerretaliation:pearl_lessons",
@@ -25972,7 +25951,17 @@ window.VR_WIKI_DATA = {
       "group": "last_ember",
       "groupLabel": "Last Ember",
       "tags": [
-        "group.last_ember"
+        "group.last_ember",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.overworld",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:last_ember",
       "parent": "villagerretaliation:nether_candle",
@@ -26645,7 +26634,20 @@ window.VR_WIKI_DATA = {
       "group": "last_ember",
       "groupLabel": "Last Ember",
       "tags": [
-        "group.last_ember"
+        "group.last_ember",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.extreme",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery",
+        "feature.scene",
+        "party.challenge"
       ],
       "relationKey": "questline:last_ember",
       "parent": "villagerretaliation:eye_before_dawn",
@@ -27318,7 +27320,18 @@ window.VR_WIKI_DATA = {
       "group": "lost_civilization",
       "groupLabel": "Lost Civilization",
       "tags": [
-        "group.lost_civilization"
+        "group.lost_civilization",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:lost_civilization",
       "parent": "",
@@ -28303,7 +28316,18 @@ window.VR_WIKI_DATA = {
       "group": "lost_civilization",
       "groupLabel": "Lost Civilization",
       "tags": [
-        "group.lost_civilization"
+        "group.lost_civilization",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.endgame",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:lost_civilization",
       "parent": "villagerretaliation:tales_of_a_lost_civilization",
@@ -28429,14 +28453,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The Ancient City records point beyond the dragon island, toward towers drawn without a ground line.",
           "Find an End City and bring back both a shulker shell and something still growing there.",
-          "Reach the marked End City and return with a shulker shell and 1 Chorus Flower. I will make the reward worth the trouble."
+          "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Take pearls, slow falling, and one clear memory of where the gateway was.",
-          "Reach the marked End City and return with a shulker shell and 1 Chorus Flower.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
         ],
         "reminder": [
           "The End City bearing, a shulker shell in hand, and one living Chorus Flower.",
@@ -28445,11 +28468,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "A shell from the towers and a flower from the stone. The old record was telling the truth.",
-          "The lost civilization has a second city now, and this one still touches the sky.",
-          "That settles it. The village will make good use of this."
+          "The lost civilization has a second city now, and this one still touches the sky."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -28469,7 +28490,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The Ancient City records point beyond the dragon island, toward towers drawn without a ground line.",
                   "Find an End City and bring back both a shulker shell and something still growing there.",
-                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower. I will make the reward worth the trouble."
+                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
                 ],
                 "responses": [
                   {
@@ -28531,8 +28552,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Take pearls, slow falling, and one clear memory of where the gateway was.",
-                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
                 ]
               },
               {
@@ -28622,8 +28642,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The End is not going anywhere. Its islands barely know how.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The End is not going anywhere. Its islands barely know how."
                 ]
               },
               {
@@ -28685,8 +28704,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "A shell from the towers and a flower from the stone. The old record was telling the truth.",
-                  "The lost civilization has a second city now, and this one still touches the sky.",
-                  "That settles it. The village will make good use of this."
+                  "The lost civilization has a second city now, and this one still touches the sky."
                 ]
               },
               {
@@ -28695,7 +28713,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -28755,7 +28772,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The Ancient City records point beyond the dragon island, toward towers drawn without a ground line.",
                   "Find an End City and bring back both a shulker shell and something still growing there.",
-                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower. I will make the reward worth the trouble."
+                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
                 ],
                 "responses": [
                   {
@@ -28817,8 +28834,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Take pearls, slow falling, and one clear memory of where the gateway was.",
-                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked End City and return with a shulker shell and 1 Chorus Flower."
                 ]
               },
               {
@@ -28908,8 +28924,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The End is not going anywhere. Its islands barely know how.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The End is not going anywhere. Its islands barely know how."
                 ]
               },
               {
@@ -28971,8 +28986,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "A shell from the towers and a flower from the stone. The old record was telling the truth.",
-                  "The lost civilization has a second city now, and this one still touches the sky.",
-                  "That settles it. The village will make good use of this."
+                  "The lost civilization has a second city now, and this one still touches the sky."
                 ]
               },
               {
@@ -28981,7 +28995,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -29042,7 +29055,16 @@ window.VR_WIKI_DATA = {
       "group": "nether_routes",
       "groupLabel": "Nether Routes",
       "tags": [
-        "group.nether_routes"
+        "group.nether_routes",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration"
       ],
       "relationKey": "questline:nether_routes",
       "parent": "",
@@ -29148,14 +29170,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "One portal is an escape. A marked portal with supplies can become a road.",
           "Bring the frame, a way to light it, and enough magma cream to survive the first mistake.",
-          "Bring 10 obsidian, 2 fire charges, and 4 magma cream. I will make the reward worth the trouble."
+          "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Count the obsidian twice. A nine-block portal is only a heavy doorway to nowhere.",
-          "Bring 10 obsidian, 2 fire charges, and 4 magma cream.",
-          "Good. I will keep a place clear for what you bring back."
+          "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
         ],
         "reminder": [
           "Ten obsidian, two fire charges, four magma cream for the route chest.",
@@ -29164,11 +29185,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The frame is complete and the fire supplies are sealed. The road can cross worlds.",
-          "We have a doorway. Next we decide where the hot road leads.",
-          "That settles it. The village will make good use of this."
+          "We have a doorway. Next we decide where the hot road leads."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -29188,7 +29207,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "One portal is an escape. A marked portal with supplies can become a road.",
                   "Bring the frame, a way to light it, and enough magma cream to survive the first mistake.",
-                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream. I will make the reward worth the trouble."
+                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
                 ],
                 "responses": [
                   {
@@ -29250,8 +29269,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Count the obsidian twice. A nine-block portal is only a heavy doorway to nowhere.",
-                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
                 ]
               },
               {
@@ -29341,8 +29359,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The Nether will not cool while we think.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The Nether will not cool while we think."
                 ]
               },
               {
@@ -29404,8 +29421,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The frame is complete and the fire supplies are sealed. The road can cross worlds.",
-                  "We have a doorway. Next we decide where the hot road leads.",
-                  "That settles it. The village will make good use of this."
+                  "We have a doorway. Next we decide where the hot road leads."
                 ]
               },
               {
@@ -29414,7 +29430,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -29474,7 +29489,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "One portal is an escape. A marked portal with supplies can become a road.",
                   "Bring the frame, a way to light it, and enough magma cream to survive the first mistake.",
-                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream. I will make the reward worth the trouble."
+                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
                 ],
                 "responses": [
                   {
@@ -29536,8 +29551,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Count the obsidian twice. A nine-block portal is only a heavy doorway to nowhere.",
-                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 10 obsidian, 2 fire charges, and 4 magma cream."
                 ]
               },
               {
@@ -29627,8 +29641,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The Nether will not cool while we think.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The Nether will not cool while we think."
                 ]
               },
               {
@@ -29690,8 +29703,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The frame is complete and the fire supplies are sealed. The road can cross worlds.",
-                  "We have a doorway. Next we decide where the hot road leads.",
-                  "That settles it. The village will make good use of this."
+                  "We have a doorway. Next we decide where the hot road leads."
                 ]
               },
               {
@@ -29700,7 +29712,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -29762,7 +29773,21 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Nether Routes",
       "tags": [
         "group.nether_routes",
-        "branching"
+        "role.story",
+        "activity.choice",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "feature.branching",
+        "feature.scene",
+        "party.recommended"
       ],
       "relationKey": "questline:nether_routes",
       "parent": "villagerretaliation:through_fire",
@@ -29934,14 +29959,14 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-          "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+          "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
         ],
         "accept": "Follow the fortress",
         "decline": "Not yet.",
         "started": [],
         "reminder": [
           "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-          "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness.",
+          "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance.",
           "Reach the fortress mark, defeat four blazes, and bring two rods.",
           "Fortress road. Mark every bridge and never stand where a blaze can see both sides of you.",
           "Reach the bastion mark, defeat two brutes, and bring four gilded blackstone.",
@@ -29971,7 +29996,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose a Road",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ],
                 "responses": [
                   {
@@ -30007,7 +30032,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Choose a Road",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ],
                 "responses": [
                   {
@@ -30054,7 +30079,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ]
               },
               {
@@ -30378,7 +30403,7 @@ window.VR_WIKI_DATA = {
                 "label": "Choose a Road",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ],
                 "responses": [
                   {
@@ -30414,7 +30439,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Choose a Road",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ],
                 "responses": [
                   {
@@ -30461,7 +30486,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The Nether road can follow fortress bridges or bastion walls. One is full of fire. The other is full of owners.",
-                  "A fortress offers brewing supplies. A bastion offers gold and better stonework. Neither offers kindness."
+                  "This choice closes the other Nether road. Fortress work offers a rare Wither Skeleton Skull chance. The harder bastion work offers a rare Ancient Debris chance."
                 ]
               },
               {
@@ -30787,7 +30812,18 @@ window.VR_WIKI_DATA = {
       "group": "nether_routes",
       "groupLabel": "Nether Routes",
       "tags": [
-        "group.nether_routes"
+        "group.nether_routes",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "party.recommended"
       ],
       "relationKey": "questline:nether_routes",
       "parent": "villagerretaliation:choose_a_road",
@@ -30876,8 +30912,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/fortress_line",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "31-44",
+            "item": "Blaze Rod",
+            "count": "8-12",
             "weight": 1,
             "note": ""
           },
@@ -30904,14 +30940,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The fortress bearing is true, but Wither Skeletons have found the same bridges.",
           "Clear the patrol and build markers from the fortress's own black brick.",
-          "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart. I will make the reward worth the trouble."
+          "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Mark the safe turns low on the wall. Ghasts enjoy editing tall signs.",
-          "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart.",
-          "Good. I will keep a place clear for what you bring back."
+          "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
         ],
         "reminder": [
           "Five Wither Skeletons, thirty-two bricks, sixteen Nether Wart.",
@@ -30920,11 +30955,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The fortress line is marked, stocked, and quieter than we found it.",
-          "A road through flame and black bone now leads back to the village.",
-          "That settles it. The village will make good use of this."
+          "A road through flame and black bone now leads back to the village."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -30944,7 +30977,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The fortress bearing is true, but Wither Skeletons have found the same bridges.",
                   "Clear the patrol and build markers from the fortress's own black brick.",
-                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart. I will make the reward worth the trouble."
+                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
                 ],
                 "responses": [
                   {
@@ -31006,8 +31039,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Mark the safe turns low on the wall. Ghasts enjoy editing tall signs.",
-                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
                 ]
               },
               {
@@ -31097,8 +31129,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the black bridges keep their patrols a little longer.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the black bridges keep their patrols a little longer."
                 ]
               },
               {
@@ -31160,8 +31191,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The fortress line is marked, stocked, and quieter than we found it.",
-                  "A road through flame and black bone now leads back to the village.",
-                  "That settles it. The village will make good use of this."
+                  "A road through flame and black bone now leads back to the village."
                 ]
               },
               {
@@ -31170,7 +31200,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -31230,7 +31259,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The fortress bearing is true, but Wither Skeletons have found the same bridges.",
                   "Clear the patrol and build markers from the fortress's own black brick.",
-                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart. I will make the reward worth the trouble."
+                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
                 ],
                 "responses": [
                   {
@@ -31292,8 +31321,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Mark the safe turns low on the wall. Ghasts enjoy editing tall signs.",
-                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defeat 5 Wither Skeletons and bring 32 Nether bricks and 16 Nether Wart."
                 ]
               },
               {
@@ -31383,8 +31411,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the black bridges keep their patrols a little longer.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the black bridges keep their patrols a little longer."
                 ]
               },
               {
@@ -31446,8 +31473,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The fortress line is marked, stocked, and quieter than we found it.",
-                  "A road through flame and black bone now leads back to the village.",
-                  "That settles it. The village will make good use of this."
+                  "A road through flame and black bone now leads back to the village."
                 ]
               },
               {
@@ -31456,7 +31482,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -31517,7 +31542,18 @@ window.VR_WIKI_DATA = {
       "group": "nether_routes",
       "groupLabel": "Nether Routes",
       "tags": [
-        "group.nether_routes"
+        "group.nether_routes",
+        "role.story",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.exploration",
+        "party.recommended"
       ],
       "relationKey": "questline:nether_routes",
       "parent": "villagerretaliation:choose_a_road",
@@ -31606,8 +31642,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/bastion_line",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "33-46",
+            "item": "Gold Block",
+            "count": "2-4",
             "weight": 1,
             "note": ""
           },
@@ -31634,14 +31670,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The bastion bearing is true, but the brutes treat every marker as a challenge.",
           "Clear the route, set blackstone marks, and stock gold where stranded travelers can barter.",
-          "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks. I will make the reward worth the trouble."
+          "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Wear one piece of gold. It will not impress the brutes, but everyone else may pause.",
-          "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks.",
-          "Good. I will keep a place clear for what you bring back."
+          "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
         ],
         "reminder": [
           "Three brutes, thirty-two blackstone, two gold blocks for the caches.",
@@ -31650,11 +31685,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The bastion line is marked, stocked, and expensive enough to be respected.",
-          "A road through broken gold now leads back to the village.",
-          "That settles it. The village will make good use of this."
+          "A road through broken gold now leads back to the village."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -31674,7 +31707,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The bastion bearing is true, but the brutes treat every marker as a challenge.",
                   "Clear the route, set blackstone marks, and stock gold where stranded travelers can barter.",
-                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks. I will make the reward worth the trouble."
+                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
                 ],
                 "responses": [
                   {
@@ -31736,8 +31769,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Wear one piece of gold. It will not impress the brutes, but everyone else may pause.",
-                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
                 ]
               },
               {
@@ -31827,8 +31859,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the bastion keeps its walls and its opinions.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the bastion keeps its walls and its opinions."
                 ]
               },
               {
@@ -31890,8 +31921,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The bastion line is marked, stocked, and expensive enough to be respected.",
-                  "A road through broken gold now leads back to the village.",
-                  "That settles it. The village will make good use of this."
+                  "A road through broken gold now leads back to the village."
                 ]
               },
               {
@@ -31900,7 +31930,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -31960,7 +31989,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The bastion bearing is true, but the brutes treat every marker as a challenge.",
                   "Clear the route, set blackstone marks, and stock gold where stranded travelers can barter.",
-                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks. I will make the reward worth the trouble."
+                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
                 ],
                 "responses": [
                   {
@@ -32022,8 +32051,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Wear one piece of gold. It will not impress the brutes, but everyone else may pause.",
-                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defeat 3 Piglin Brutes and bring 32 blackstone and 2 gold blocks."
                 ]
               },
               {
@@ -32113,8 +32141,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the bastion keeps its walls and its opinions.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the bastion keeps its walls and its opinions."
                 ]
               },
               {
@@ -32176,8 +32203,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The bastion line is marked, stocked, and expensive enough to be respected.",
-                  "A road through broken gold now leads back to the village.",
-                  "That settles it. The village will make good use of this."
+                  "A road through broken gold now leads back to the village."
                 ]
               },
               {
@@ -32186,7 +32212,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -32247,7 +32272,18 @@ window.VR_WIKI_DATA = {
       "group": "old_roads",
       "groupLabel": "Old Roads",
       "tags": [
-        "group.old_roads"
+        "group.old_roads",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:old_roads",
       "parent": "",
@@ -32368,14 +32404,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "A fisher pulled a waterlogged ledger from a wreck, but half its route has washed away.",
           "Find the wreck's true bearing and bring dry paper so the surviving marks can be copied.",
-          "Reach the marked shipwreck and return with a compass and 8 paper. I will make the reward worth the trouble."
+          "Reach the marked shipwreck and return with a compass and 8 paper."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Keep the paper above the waterline. We already have one drowned ledger.",
-          "Reach the marked shipwreck and return with a compass and 8 paper.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked shipwreck and return with a compass and 8 paper."
         ],
         "reminder": [
           "The shipwreck bearing, one compass, and eight dry sheets for the copy.",
@@ -32384,11 +32419,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The ink wandered, but the route did not. This ledger can guide boats again.",
-          "A road under water is still a road once someone remembers it.",
-          "That settles it. The village will make good use of this."
+          "A road under water is still a road once someone remembers it."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -32408,7 +32441,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "A fisher pulled a waterlogged ledger from a wreck, but half its route has washed away.",
                   "Find the wreck's true bearing and bring dry paper so the surviving marks can be copied.",
-                  "Reach the marked shipwreck and return with a compass and 8 paper. I will make the reward worth the trouble."
+                  "Reach the marked shipwreck and return with a compass and 8 paper."
                 ],
                 "responses": [
                   {
@@ -32470,8 +32503,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the paper above the waterline. We already have one drowned ledger.",
-                  "Reach the marked shipwreck and return with a compass and 8 paper.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked shipwreck and return with a compass and 8 paper."
                 ]
               },
               {
@@ -32561,8 +32593,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the tide keeps the ledger's missing half.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the tide keeps the ledger's missing half."
                 ]
               },
               {
@@ -32624,8 +32655,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The ink wandered, but the route did not. This ledger can guide boats again.",
-                  "A road under water is still a road once someone remembers it.",
-                  "That settles it. The village will make good use of this."
+                  "A road under water is still a road once someone remembers it."
                 ]
               },
               {
@@ -32634,7 +32664,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -32694,7 +32723,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "A fisher pulled a waterlogged ledger from a wreck, but half its route has washed away.",
                   "Find the wreck's true bearing and bring dry paper so the surviving marks can be copied.",
-                  "Reach the marked shipwreck and return with a compass and 8 paper. I will make the reward worth the trouble."
+                  "Reach the marked shipwreck and return with a compass and 8 paper."
                 ],
                 "responses": [
                   {
@@ -32756,8 +32785,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the paper above the waterline. We already have one drowned ledger.",
-                  "Reach the marked shipwreck and return with a compass and 8 paper.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked shipwreck and return with a compass and 8 paper."
                 ]
               },
               {
@@ -32847,8 +32875,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the tide keeps the ledger's missing half.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the tide keeps the ledger's missing half."
                 ]
               },
               {
@@ -32910,8 +32937,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The ink wandered, but the route did not. This ledger can guide boats again.",
-                  "A road under water is still a road once someone remembers it.",
-                  "That settles it. The village will make good use of this."
+                  "A road under water is still a road once someone remembers it."
                 ]
               },
               {
@@ -32920,7 +32946,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -32981,7 +33006,18 @@ window.VR_WIKI_DATA = {
       "group": "old_roads",
       "groupLabel": "Old Roads",
       "tags": [
-        "group.old_roads"
+        "group.old_roads",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.expedition",
+        "theme.exploration",
+        "theme.mystery"
       ],
       "relationKey": "questline:old_roads",
       "parent": "",
@@ -33101,14 +33137,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "An old milestone is buried near the trail ruins, broken where the road forgot its own name.",
           "Brush the marker clear and bring smooth stone so we can raise it again.",
-          "Reach the marked Trail Ruins and return with a brush and 12 smooth stone. I will make the reward worth the trouble."
+          "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Brush gently. Old roads leave smaller signs than new travelers expect.",
-          "Reach the marked Trail Ruins and return with a brush and 12 smooth stone.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
         ],
         "reminder": [
           "The trail-ruin mark, one brush, and twelve smooth stone for the milestone.",
@@ -33117,11 +33152,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The old number is visible again. Someone once measured this road, and now we can too.",
-          "A broken marker stands again. The road has one memory back.",
-          "That settles it. The village will make good use of this."
+          "A broken marker stands again. The road has one memory back."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -33141,7 +33174,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "An old milestone is buried near the trail ruins, broken where the road forgot its own name.",
                   "Brush the marker clear and bring smooth stone so we can raise it again.",
-                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone. I will make the reward worth the trouble."
+                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
                 ],
                 "responses": [
                   {
@@ -33203,8 +33236,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Brush gently. Old roads leave smaller signs than new travelers expect.",
-                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
                 ]
               },
               {
@@ -33294,8 +33326,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The milestone has spent years underground. One more day will not offend it.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The milestone has spent years underground. One more day will not offend it."
                 ]
               },
               {
@@ -33357,8 +33388,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The old number is visible again. Someone once measured this road, and now we can too.",
-                  "A broken marker stands again. The road has one memory back.",
-                  "That settles it. The village will make good use of this."
+                  "A broken marker stands again. The road has one memory back."
                 ]
               },
               {
@@ -33367,7 +33397,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -33427,7 +33456,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "An old milestone is buried near the trail ruins, broken where the road forgot its own name.",
                   "Brush the marker clear and bring smooth stone so we can raise it again.",
-                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone. I will make the reward worth the trouble."
+                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
                 ],
                 "responses": [
                   {
@@ -33489,8 +33518,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Brush gently. Old roads leave smaller signs than new travelers expect.",
-                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Trail Ruins and return with a brush and 12 smooth stone."
                 ]
               },
               {
@@ -33580,8 +33608,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "The milestone has spent years underground. One more day will not offend it.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "The milestone has spent years underground. One more day will not offend it."
                 ]
               },
               {
@@ -33643,8 +33670,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The old number is visible again. Someone once measured this road, and now we can too.",
-                  "A broken marker stands again. The road has one memory back.",
-                  "That settles it. The village will make good use of this."
+                  "A broken marker stands again. The road has one memory back."
                 ]
               },
               {
@@ -33653,7 +33679,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -33714,7 +33739,15 @@ window.VR_WIKI_DATA = {
       "group": "redstone_works",
       "groupLabel": "Redstone Works",
       "tags": [
-        "group.redstone_works"
+        "group.redstone_works",
+        "role.story",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship"
       ],
       "relationKey": "questline:redstone_works",
       "parent": "",
@@ -33820,14 +33853,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "We have doors, lamps, and a great many villagers tired of opening both by hand.",
           "Bring enough redstone to build one careful circuit before anyone builds ten foolish ones.",
-          "Bring 16 redstone dust, 2 repeaters, and 2 levers. I will make the reward worth the trouble."
+          "Bring 16 redstone dust, 2 repeaters, and 2 levers."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Keep the dust dry and the levers apart. We are testing one idea at a time.",
-          "Bring 16 redstone dust, 2 repeaters, and 2 levers.",
-          "Good. I will keep a place clear for what you bring back."
+          "Bring 16 redstone dust, 2 repeaters, and 2 levers."
         ],
         "reminder": [
           "Sixteen redstone, two repeaters, two levers for the workshop bench.",
@@ -33836,11 +33868,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "A small spark, properly measured. That is how useful machines begin.",
-          "The circuit bench is stocked. Now we can make mistakes in a straight line.",
-          "That settles it. The village will make good use of this."
+          "The circuit bench is stocked. Now we can make mistakes in a straight line."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -33860,7 +33890,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "We have doors, lamps, and a great many villagers tired of opening both by hand.",
                   "Bring enough redstone to build one careful circuit before anyone builds ten foolish ones.",
-                  "Bring 16 redstone dust, 2 repeaters, and 2 levers. I will make the reward worth the trouble."
+                  "Bring 16 redstone dust, 2 repeaters, and 2 levers."
                 ],
                 "responses": [
                   {
@@ -33922,8 +33952,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the dust dry and the levers apart. We are testing one idea at a time.",
-                  "Bring 16 redstone dust, 2 repeaters, and 2 levers.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 16 redstone dust, 2 repeaters, and 2 levers."
                 ]
               },
               {
@@ -34013,8 +34042,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then every door remains proudly manual.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then every door remains proudly manual."
                 ]
               },
               {
@@ -34076,8 +34104,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "A small spark, properly measured. That is how useful machines begin.",
-                  "The circuit bench is stocked. Now we can make mistakes in a straight line.",
-                  "That settles it. The village will make good use of this."
+                  "The circuit bench is stocked. Now we can make mistakes in a straight line."
                 ]
               },
               {
@@ -34086,7 +34113,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -34146,7 +34172,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "We have doors, lamps, and a great many villagers tired of opening both by hand.",
                   "Bring enough redstone to build one careful circuit before anyone builds ten foolish ones.",
-                  "Bring 16 redstone dust, 2 repeaters, and 2 levers. I will make the reward worth the trouble."
+                  "Bring 16 redstone dust, 2 repeaters, and 2 levers."
                 ],
                 "responses": [
                   {
@@ -34208,8 +34234,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Keep the dust dry and the levers apart. We are testing one idea at a time.",
-                  "Bring 16 redstone dust, 2 repeaters, and 2 levers.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Bring 16 redstone dust, 2 repeaters, and 2 levers."
                 ]
               },
               {
@@ -34299,8 +34324,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then every door remains proudly manual.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then every door remains proudly manual."
                 ]
               },
               {
@@ -34362,8 +34386,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "A small spark, properly measured. That is how useful machines begin.",
-                  "The circuit bench is stocked. Now we can make mistakes in a straight line.",
-                  "That settles it. The village will make good use of this."
+                  "The circuit bench is stocked. Now we can make mistakes in a straight line."
                 ]
               },
               {
@@ -34372,7 +34395,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -34434,7 +34456,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Redstone Works",
       "tags": [
         "group.redstone_works",
-        "branching"
+        "role.story",
+        "activity.choice",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship",
+        "feature.branching"
       ],
       "relationKey": "questline:redstone_works",
       "parent": "villagerretaliation:small_spark",
@@ -34581,14 +34612,14 @@ window.VR_WIKI_DATA = {
       "dialogue": {
         "offer": [
           "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-          "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+          "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
         ],
         "accept": "Follow the sun",
         "decline": "Not yet.",
         "started": [],
         "reminder": [
           "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-          "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn.",
+          "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards.",
           "Two daylight detectors and four redstone lamps for the gate circuit.",
           "Sunlight, then. The gate will keep honest hours and make its workings plain.",
           "Two sculk sensors and sixteen white wool to quiet the wrong footsteps.",
@@ -34618,7 +34649,7 @@ window.VR_WIKI_DATA = {
                 "label": "Power the Gate",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ],
                 "responses": [
                   {
@@ -34654,7 +34685,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Power the Gate",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ],
                 "responses": [
                   {
@@ -34701,7 +34732,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ]
               },
               {
@@ -35025,7 +35056,7 @@ window.VR_WIKI_DATA = {
                 "label": "Power the Gate",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ],
                 "responses": [
                   {
@@ -35061,7 +35092,7 @@ window.VR_WIKI_DATA = {
                 "label": "About Power the Gate",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ],
                 "responses": [
                   {
@@ -35108,7 +35139,7 @@ window.VR_WIKI_DATA = {
                 "label": "Reminder: Reminder",
                 "lines": [
                   "The gate can follow daylight, or listen for footsteps through sculk. Both work, but they do not fail the same way.",
-                  "A sun switch is simple and visible. A sculk trigger is quiet and clever. Choose which lesson the gate should learn."
+                  "This choice closes the other design. Daylight stays local and pays modestly. Sculk commits the next job to an Ancient City, with greater reputation and rare sculk rewards."
                 ]
               },
               {
@@ -35434,7 +35465,16 @@ window.VR_WIKI_DATA = {
       "group": "redstone_works",
       "groupLabel": "Redstone Works",
       "tags": [
-        "group.redstone_works"
+        "group.redstone_works",
+        "role.story",
+        "activity.build",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.craftsmanship"
       ],
       "relationKey": "questline:redstone_works",
       "parent": "villagerretaliation:power_the_gate",
@@ -35522,8 +35562,8 @@ window.VR_WIKI_DATA = {
         "lootTable": "villagerretaliation:quest/sun_switch",
         "loot": [
           {
-            "item": "Emerald",
-            "count": "20-30",
+            "item": "Redstone Lamp",
+            "count": "4-8",
             "weight": 1,
             "note": ""
           },
@@ -35550,14 +35590,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The gate follows daylight. Now the road lamps should follow it too.",
           "Set the lamps where the path bends and give the control box a way to compare weak light with strong.",
-          "Place 8 redstone lamps and bring 2 comparators and 12 quartz. I will make the reward worth the trouble."
+          "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Face every lamp toward the road. Lighting the roof helps only bats.",
-          "Place 8 redstone lamps and bring 2 comparators and 12 quartz.",
-          "Good. I will keep a place clear for what you bring back."
+          "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
         ],
         "reminder": [
           "Eight lamps placed, two comparators and twelve quartz returned.",
@@ -35566,11 +35605,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The road wakes at dusk and sleeps after dawn. No villager needs to remember the lever.",
-          "The sun now keeps the village lamps better than any watch schedule.",
-          "That settles it. The village will make good use of this."
+          "The sun now keeps the village lamps better than any watch schedule."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -35590,7 +35627,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The gate follows daylight. Now the road lamps should follow it too.",
                   "Set the lamps where the path bends and give the control box a way to compare weak light with strong.",
-                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz. I will make the reward worth the trouble."
+                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
                 ],
                 "responses": [
                   {
@@ -35652,8 +35689,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Face every lamp toward the road. Lighting the roof helps only bats.",
-                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
                 ]
               },
               {
@@ -35743,8 +35779,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the gate can keep the light to itself for now.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the gate can keep the light to itself for now."
                 ]
               },
               {
@@ -35806,8 +35841,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The road wakes at dusk and sleeps after dawn. No villager needs to remember the lever.",
-                  "The sun now keeps the village lamps better than any watch schedule.",
-                  "That settles it. The village will make good use of this."
+                  "The sun now keeps the village lamps better than any watch schedule."
                 ]
               },
               {
@@ -35816,7 +35850,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -35876,7 +35909,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The gate follows daylight. Now the road lamps should follow it too.",
                   "Set the lamps where the path bends and give the control box a way to compare weak light with strong.",
-                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz. I will make the reward worth the trouble."
+                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
                 ],
                 "responses": [
                   {
@@ -35938,8 +35971,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Face every lamp toward the road. Lighting the roof helps only bats.",
-                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Place 8 redstone lamps and bring 2 comparators and 12 quartz."
                 ]
               },
               {
@@ -36029,8 +36061,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then the gate can keep the light to itself for now.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then the gate can keep the light to itself for now."
                 ]
               },
               {
@@ -36092,8 +36123,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The road wakes at dusk and sleeps after dawn. No villager needs to remember the lever.",
-                  "The sun now keeps the village lamps better than any watch schedule.",
-                  "That settles it. The village will make good use of this."
+                  "The sun now keeps the village lamps better than any watch schedule."
                 ]
               },
               {
@@ -36102,7 +36132,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -36163,7 +36192,18 @@ window.VR_WIKI_DATA = {
       "group": "redstone_works",
       "groupLabel": "Redstone Works",
       "tags": [
-        "group.redstone_works"
+        "group.redstone_works",
+        "role.story",
+        "activity.build",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.craftsmanship"
       ],
       "relationKey": "questline:redstone_works",
       "parent": "villagerretaliation:power_the_gate",
@@ -36288,14 +36328,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "The village sensor works, but the Ancient City knew how to shape sound long before we did.",
           "Study its silence, lay wool around the loud paths, and recover one calibrated sensor.",
-          "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor. I will make the reward worth the trouble."
+          "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Every block of wool is cheaper than one shrieker. Place them before curiosity.",
-          "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor.",
-          "Good. I will keep a place clear for what you bring back."
+          "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
         ],
         "reminder": [
           "The city signal, thirty-two wool placed, one calibrated sensor returned.",
@@ -36304,11 +36343,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The gate now hears what matters and ignores what does not. Let us hope it keeps that wisdom.",
-          "A machine taught by silence. The sculk branch is complete.",
-          "That settles it. The village will make good use of this."
+          "A machine taught by silence. The sculk branch is complete."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -36328,7 +36365,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The village sensor works, but the Ancient City knew how to shape sound long before we did.",
                   "Study its silence, lay wool around the loud paths, and recover one calibrated sensor.",
-                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor. I will make the reward worth the trouble."
+                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
                 ],
                 "responses": [
                   {
@@ -36390,8 +36427,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Every block of wool is cheaper than one shrieker. Place them before curiosity.",
-                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
                 ]
               },
               {
@@ -36481,8 +36517,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Good. Ancient Cities punish noisy lessons.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Good. Ancient Cities punish noisy lessons."
                 ]
               },
               {
@@ -36544,8 +36579,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The gate now hears what matters and ignores what does not. Let us hope it keeps that wisdom.",
-                  "A machine taught by silence. The sculk branch is complete.",
-                  "That settles it. The village will make good use of this."
+                  "A machine taught by silence. The sculk branch is complete."
                 ]
               },
               {
@@ -36554,7 +36588,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -36614,7 +36647,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "The village sensor works, but the Ancient City knew how to shape sound long before we did.",
                   "Study its silence, lay wool around the loud paths, and recover one calibrated sensor.",
-                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor. I will make the reward worth the trouble."
+                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
                 ],
                 "responses": [
                   {
@@ -36676,8 +36709,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Every block of wool is cheaper than one shrieker. Place them before curiosity.",
-                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Study the marked Ancient City, place 32 wool, and bring 1 calibrated sculk sensor."
                 ]
               },
               {
@@ -36767,8 +36799,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Good. Ancient Cities punish noisy lessons.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Good. Ancient Cities punish noisy lessons."
                 ]
               },
               {
@@ -36830,8 +36861,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The gate now hears what matters and ignores what does not. Let us hope it keeps that wisdom.",
-                  "A machine taught by silence. The sculk branch is complete.",
-                  "That settles it. The village will make good use of this."
+                  "A machine taught by silence. The sculk branch is complete."
                 ]
               },
               {
@@ -36840,7 +36870,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -36902,7 +36931,19 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.late"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.late",
+        "difficulty.extreme",
+        "commitment.expedition",
+        "theme.community",
+        "theme.defense",
+        "party.challenge",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -37627,7 +37668,20 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.late"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.nether",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.community",
+        "theme.defense",
+        "party.recommended",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -38354,7 +38408,20 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.late"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.community",
+        "theme.defense",
+        "party.recommended",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -39081,7 +39148,17 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.early"
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.commission",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -39788,7 +39865,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.mid"
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -40501,7 +40587,18 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.mid"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.defense",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -41214,7 +41311,19 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.late"
+        "role.request",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.community",
+        "theme.exploration",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -41941,7 +42050,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.early"
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -42654,7 +42772,19 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.mid"
+        "role.request",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.community",
+        "theme.exploration",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -43389,7 +43519,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.early"
+        "role.request",
+        "activity.trade",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "theme.craftsmanship",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -44095,7 +44234,22 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.late"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.end",
+        "destination.remote",
+        "tier.late",
+        "difficulty.hard",
+        "commitment.expedition",
+        "theme.community",
+        "theme.defense",
+        "theme.exploration",
+        "party.recommended",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -44830,7 +44984,18 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.mid"
+        "role.request",
+        "activity.build",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.craftsmanship",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -45542,7 +45707,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.early"
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -46254,7 +46428,16 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.early"
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -46966,7 +47149,18 @@ window.VR_WIKI_DATA = {
       "groupLabel": "Village Commissions",
       "tags": [
         "group.village_commissions",
-        "tier.mid"
+        "role.request",
+        "activity.combat",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.defense",
+        "pool.commission",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_commissions",
       "parent": "",
@@ -47678,7 +47872,18 @@ window.VR_WIKI_DATA = {
       "group": "village_defense",
       "groupLabel": "Village Defense",
       "tags": [
-        "group.village_defense"
+        "group.village_defense",
+        "role.side",
+        "activity.deliver",
+        "activity.explore",
+        "activity.gather",
+        "destination.overworld",
+        "destination.remote",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.expedition",
+        "theme.community",
+        "theme.defense"
       ],
       "relationKey": "questline:village_defense",
       "parent": "",
@@ -47798,14 +48003,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "Pillager arrows carry a cut on the shaft that tells one patrol from another.",
           "Scout the outpost, bring back a marked crossbow, and restock the watch before its owners follow.",
-          "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows. I will make the reward worth the trouble."
+          "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Look before you shoot. A scout who clears the tower may still miss the patrol behind it.",
-          "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows.",
-          "Good. I will keep a place clear for what you bring back."
+          "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
         ],
         "reminder": [
           "The outpost mark, one pillager crossbow in hand, and twenty-four arrows for the watch.",
@@ -47814,11 +48018,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The countermark matches the patrol, and the watch has arrows ready for it.",
-          "Now we know which banner is moving toward us and how to answer it.",
-          "That settles it. The village will make good use of this."
+          "Now we know which banner is moving toward us and how to answer it."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -47838,7 +48040,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "Pillager arrows carry a cut on the shaft that tells one patrol from another.",
                   "Scout the outpost, bring back a marked crossbow, and restock the watch before its owners follow.",
-                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows. I will make the reward worth the trouble."
+                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
                 ],
                 "responses": [
                   {
@@ -47900,8 +48102,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Look before you shoot. A scout who clears the tower may still miss the patrol behind it.",
-                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
                 ]
               },
               {
@@ -47991,8 +48192,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then do not wear a bright shield near the outpost road.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then do not wear a bright shield near the outpost road."
                 ]
               },
               {
@@ -48054,8 +48254,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The countermark matches the patrol, and the watch has arrows ready for it.",
-                  "Now we know which banner is moving toward us and how to answer it.",
-                  "That settles it. The village will make good use of this."
+                  "Now we know which banner is moving toward us and how to answer it."
                 ]
               },
               {
@@ -48064,7 +48263,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -48124,7 +48322,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "Pillager arrows carry a cut on the shaft that tells one patrol from another.",
                   "Scout the outpost, bring back a marked crossbow, and restock the watch before its owners follow.",
-                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows. I will make the reward worth the trouble."
+                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
                 ],
                 "responses": [
                   {
@@ -48186,8 +48384,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Look before you shoot. A scout who clears the tower may still miss the patrol behind it.",
-                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Reach the marked Pillager Outpost and return with a crossbow and 24 arrows."
                 ]
               },
               {
@@ -48277,8 +48474,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then do not wear a bright shield near the outpost road.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then do not wear a bright shield near the outpost road."
                 ]
               },
               {
@@ -48340,8 +48536,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The countermark matches the patrol, and the watch has arrows ready for it.",
-                  "Now we know which banner is moving toward us and how to answer it.",
-                  "That settles it. The village will make good use of this."
+                  "Now we know which banner is moving toward us and how to answer it."
                 ]
               },
               {
@@ -48350,7 +48545,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -48411,7 +48605,17 @@ window.VR_WIKI_DATA = {
       "group": "village_defense",
       "groupLabel": "Village Defense",
       "tags": [
-        "group.village_defense"
+        "group.village_defense",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "theme.defense",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_defense",
       "parent": "",
@@ -49121,7 +49325,18 @@ window.VR_WIKI_DATA = {
       "group": "village_defense",
       "groupLabel": "Village Defense",
       "tags": [
-        "group.village_defense"
+        "group.village_defense",
+        "role.side",
+        "activity.combat",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.defense",
+        "feature.encounter",
+        "feature.scene",
+        "party.challenge"
       ],
       "relationKey": "questline:village_defense",
       "parent": "villagerretaliation:watch_arrows",
@@ -49152,15 +49367,13 @@ window.VR_WIKI_DATA = {
       },
       "target": null,
       "objectives": [
-        "Record memory: Player Defended Village",
-        "Defeat 3 Zombie",
-        "Defeat 1 Pillager"
+        "Record memory: Player Defended Village"
       ],
       "steps": [
         {
           "id": "work",
           "label": "Work",
-          "text": "Defeat the watch attackers and defend the village.",
+          "text": "Hold the village line and defeat the watch attack.",
           "progress": 0.75,
           "hint": ""
         },
@@ -49169,20 +49382,6 @@ window.VR_WIKI_DATA = {
           "label": "Defend Village",
           "text": "Defend the village from a real threat.",
           "progress": 0.85,
-          "hint": ""
-        },
-        {
-          "id": "defeat_zombies",
-          "label": "Defeat Zombies",
-          "text": "Defeat 3 zombies in the watch attack.",
-          "progress": 0.65,
-          "hint": ""
-        },
-        {
-          "id": "defeat_pillager",
-          "label": "Defeat Pillager",
-          "text": "Defeat the pillager leading the attack.",
-          "progress": 0.8,
           "hint": ""
         },
         {
@@ -49234,14 +49433,13 @@ window.VR_WIKI_DATA = {
         "offer": [
           "Arrows help, but a village also needs someone who stands when the bell begins.",
           "Defend this village from a real threat. The villagers will know whether you did.",
-          "Defend the village from a real threat. I will make the reward worth the trouble."
+          "Defend the village from a real threat."
         ],
         "accept": "I can do that.",
         "decline": "Not right now.",
         "started": [
           "Stay near the bell when danger comes. A scattered defense is only several lonely fights.",
-          "Defend the village from a real threat.",
-          "Good. I will keep a place clear for what you bring back."
+          "Defend the village from a real threat."
         ],
         "reminder": [
           "Stand with the village when a real threat reaches its homes.",
@@ -49250,11 +49448,9 @@ window.VR_WIKI_DATA = {
         ],
         "completed": [
           "The village saw where you stood. No token could prove it better.",
-          "You held the line while doors were closing behind you. That earns trust.",
-          "That settles it. The village will make good use of this."
+          "You held the line while doors were closing behind you. That earns trust."
         ],
         "missing": [
-          "Something is still missing. Check the journal before I close the note.",
           "The full work is not ready to count yet.",
           "The supplies need a true destination behind them.",
           "Reach the marked place before we call this finished.",
@@ -49265,7 +49461,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "work",
             "label": "Work",
-            "trackerText": "Defeat the watch attackers and defend the village.",
+            "trackerText": "Hold the village line and defeat the watch attack.",
             "slots": [
               {
                 "slot": "offer",
@@ -49274,7 +49470,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "Arrows help, but a village also needs someone who stands when the bell begins.",
                   "Defend this village from a real threat. The villagers will know whether you did.",
-                  "Defend the village from a real threat. I will make the reward worth the trouble."
+                  "Defend the village from a real threat."
                 ],
                 "responses": [
                   {
@@ -49336,8 +49532,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Stay near the bell when danger comes. A scattered defense is only several lonely fights.",
-                  "Defend the village from a real threat.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defend the village from a real threat."
                 ]
               },
               {
@@ -49427,8 +49622,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep your shield close. Trouble rarely sends an appointment.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep your shield close. Trouble rarely sends an appointment."
                 ]
               },
               {
@@ -49490,8 +49684,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The village saw where you stood. No token could prove it better.",
-                  "You held the line while doors were closing behind you. That earns trust.",
-                  "That settles it. The village will make good use of this."
+                  "You held the line while doors were closing behind you. That earns trust."
                 ]
               },
               {
@@ -49500,7 +49693,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -49551,7 +49743,7 @@ window.VR_WIKI_DATA = {
           {
             "stageId": "work",
             "label": "Work",
-            "trackerText": "Defeat the watch attackers and defend the village.",
+            "trackerText": "Hold the village line and defeat the watch attack.",
             "slots": [
               {
                 "slot": "offer",
@@ -49560,7 +49752,7 @@ window.VR_WIKI_DATA = {
                 "lines": [
                   "Arrows help, but a village also needs someone who stands when the bell begins.",
                   "Defend this village from a real threat. The villagers will know whether you did.",
-                  "Defend the village from a real threat. I will make the reward worth the trouble."
+                  "Defend the village from a real threat."
                 ],
                 "responses": [
                   {
@@ -49622,8 +49814,7 @@ window.VR_WIKI_DATA = {
                 "label": "Start: Started",
                 "lines": [
                   "Stay near the bell when danger comes. A scattered defense is only several lonely fights.",
-                  "Defend the village from a real threat.",
-                  "Good. I will keep a place clear for what you bring back."
+                  "Defend the village from a real threat."
                 ]
               },
               {
@@ -49713,8 +49904,7 @@ window.VR_WIKI_DATA = {
                 "sceneId": "decline",
                 "label": "Scene: Decline",
                 "lines": [
-                  "Then keep your shield close. Trouble rarely sends an appointment.",
-                  "Another pair of hands may take it, or you may ask again later."
+                  "Then keep your shield close. Trouble rarely sends an appointment."
                 ]
               },
               {
@@ -49776,8 +49966,7 @@ window.VR_WIKI_DATA = {
                 "label": "Turn-in: Completed",
                 "lines": [
                   "The village saw where you stood. No token could prove it better.",
-                  "You held the line while doors were closing behind you. That earns trust.",
-                  "That settles it. The village will make good use of this."
+                  "You held the line while doors were closing behind you. That earns trust."
                 ]
               },
               {
@@ -49786,7 +49975,6 @@ window.VR_WIKI_DATA = {
                 "key": "missing_objectives",
                 "label": "Turn-in: Missing objectives",
                 "lines": [
-                  "Something is still missing. Check the journal before I close the note.",
                   "The full work is not ready to count yet."
                 ]
               },
@@ -49847,7 +50035,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -50558,7 +50756,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -51264,7 +51472,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -51975,7 +52193,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -52680,7 +52908,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -53385,7 +53623,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -54096,7 +54344,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -54807,7 +55065,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -55518,7 +55786,16 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -56229,7 +56506,16 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -56937,7 +57223,16 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -57648,7 +57943,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -58354,7 +58659,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -59059,7 +59374,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -59771,7 +60096,16 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -60478,7 +60812,17 @@ window.VR_WIKI_DATA = {
       "group": "village_supply",
       "groupLabel": "Village Supply",
       "tags": [
-        "group.village_supply"
+        "group.village_supply",
+        "role.request",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.quick",
+        "theme.community",
+        "pool.daily",
+        "pool.quest_board"
       ],
       "relationKey": "questline:village_supply",
       "parent": "",
@@ -61189,7 +61533,16 @@ window.VR_WIKI_DATA = {
       "group": "workshop_oaths",
       "groupLabel": "Workshop Oaths",
       "tags": [
-        "group.workshop_oaths"
+        "group.workshop_oaths",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.early",
+        "difficulty.easy",
+        "commitment.standard",
+        "theme.community",
+        "theme.craftsmanship"
       ],
       "relationKey": "questline:workshop_oaths",
       "parent": "",
@@ -61861,7 +62214,16 @@ window.VR_WIKI_DATA = {
       "group": "workshop_oaths",
       "groupLabel": "Workshop Oaths",
       "tags": [
-        "group.workshop_oaths"
+        "group.workshop_oaths",
+        "role.side",
+        "activity.deliver",
+        "activity.gather",
+        "destination.village",
+        "tier.mid",
+        "difficulty.normal",
+        "commitment.standard",
+        "theme.community",
+        "theme.craftsmanship"
       ],
       "relationKey": "questline:workshop_oaths",
       "parent": "villagerretaliation:honed_handles",
@@ -62528,253 +62890,206 @@ window.VR_WIKI_DATA = {
   ],
   "gifts": {
     "totals": {
-      "preferences": 62,
+      "preferences": 75,
       "rewards": 30
     },
-    "globalPreferredItems": [
-      "Apple",
-      "Baked Potato",
-      "Barrel",
-      "Bread",
-      "Cake",
-      "Campfire",
-      "Carrot",
-      "Chest",
-      "Cookie",
-      "Crafting Table",
-      "Deepslate Emerald Ore",
-      "Diamond",
-      "Emerald",
-      "Emerald Block",
-      "Emerald Ore",
-      "Enchanted Golden Apple",
-      "Experience Bottle",
-      "Flower Pot",
-      "Glow Berries",
-      "Gold Ingot",
-      "Golden Apple",
-      "Golden Carrot",
-      "Honey Bottle",
-      "Lantern",
-      "Melon Slice",
-      "Milk Bucket",
-      "Pumpkin Pie",
-      "Sweet Berries",
-      "Torch"
-    ],
-    "globalDislikedItems": [
-      "Bone",
-      "Bone Meal",
-      "Cobweb",
-      "Dead Bush",
-      "Fermented Spider Eye",
-      "Fire Charge",
-      "Firework Rocket",
-      "Flint And Steel",
-      "Gunpowder",
-      "Lava Bucket",
-      "Magma Cream",
-      "Ominous Bottle",
-      "Ominous Trial Key",
-      "Phantom Membrane",
-      "Poisonous Potato",
-      "Pufferfish",
-      "Rotten Flesh",
-      "Slime Ball",
-      "Spider Eye",
-      "Suspicious Stew",
-      "Tnt",
-      "Tnt Minecart",
-      "Trial Key",
-      "Wither Rose",
-      "Wither Skeleton Skull"
-    ],
-    "globalNeutralItems": [],
-    "reactions": [
+    "ratingScale": [
       {
+        "rating": 3,
+        "label": "+++",
         "reaction": "Loved",
-        "count": 16,
-        "allItems": [
-          "Amethyst Shard",
-          "Anvil",
-          "Apple",
-          "Arrow",
-          "Barrel",
-          "Beef",
-          "Beetroot",
-          "Beetroot Seeds",
-          "Black Wool",
-          "Blaze Rod",
-          "Blue Wool",
-          "Book",
-          "Bookshelf",
-          "Bow",
-          "Brewing Stand",
-          "Brick",
-          "Bricks",
-          "Brown Wool",
-          "Bucket",
-          "Bundle",
-          "Cake",
-          "Carrot",
-          "Cartography Table",
-          "Cauldron",
-          "Chainmail Boots",
-          "Chainmail Chestplate",
-          "Chainmail Helmet",
-          "Chainmail Leggings",
-          "Chicken",
-          "Chiseled Bookshelf",
-          "Chiseled Stone Bricks",
-          "Clay",
-          "Clay Ball",
-          "Clock",
-          "Cod",
-          "Compass",
-          "Composter",
-          "Cooked Beef",
-          "Cooked Chicken",
-          "Cooked Cod",
-          "Cooked Mutton",
-          "Cooked Porkchop",
-          "Cooked Rabbit",
-          "Cooked Salmon",
-          "Cookie",
-          "Crossbow",
-          "Cut Copper",
-          "Cyan Wool",
-          "Diamond",
-          "Diamond Axe",
-          "Diamond Boots",
-          "Diamond Chestplate",
-          "Diamond Helmet",
-          "Diamond Hoe",
-          "Diamond Leggings",
-          "Diamond Pickaxe",
-          "Diamond Shovel",
-          "Diamond Sword",
-          "Dragon Breath",
-          "Echo Shard",
+        "description": "Exceptional favorite"
+      },
+      {
+        "rating": 2,
+        "label": "++",
+        "reaction": "Loved",
+        "description": "Strong favorite"
+      },
+      {
+        "rating": 1,
+        "label": "+",
+        "reaction": "Liked",
+        "description": "Positive preference"
+      },
+      {
+        "rating": 0,
+        "label": "0",
+        "reaction": "Neutral",
+        "description": "No preference"
+      },
+      {
+        "rating": -1,
+        "label": "-",
+        "reaction": "Disliked",
+        "description": "Mild dislike"
+      },
+      {
+        "rating": -2,
+        "label": "--",
+        "reaction": "Hated",
+        "description": "Strong dislike"
+      },
+      {
+        "rating": -3,
+        "label": "---",
+        "reaction": "Hated",
+        "description": "Severe rejection"
+      }
+    ],
+    "globalPreferences": [
+      {
+        "id": "builtin.global.loved_emerald_block",
+        "rating": 3,
+        "ratingLabel": "+++",
+        "reaction": "Loved",
+        "category": "Exceptional Valuables",
+        "items": [
+          "Emerald Block"
+        ]
+      },
+      {
+        "id": "builtin.global.loved_valuables",
+        "rating": 2,
+        "ratingLabel": "++",
+        "reaction": "Loved",
+        "category": "Valuables",
+        "items": [
           "Emerald",
-          "Emerald Block",
-          "Enchanted Book",
-          "Enchanted Golden Apple",
-          "Ender Pearl",
-          "Experience Bottle",
-          "Feather",
-          "Filled Map",
-          "Fishing Rod",
-          "Fletching Table",
-          "Flint",
-          "Ghast Tear",
-          "Glowstone",
-          "Glowstone Dust",
+          "Diamond",
           "Gold Ingot",
           "Golden Apple",
-          "Golden Carrot",
-          "Gray Wool",
-          "Green Wool",
-          "Grindstone",
-          "Hay Block",
-          "Heart Of The Sea",
-          "Heavy Core",
-          "Honey Bottle",
-          "Iron Axe",
-          "Iron Block",
-          "Iron Boots",
-          "Iron Chestplate",
-          "Iron Helmet",
-          "Iron Hoe",
-          "Iron Ingot",
-          "Iron Leggings",
-          "Iron Pickaxe",
-          "Iron Shovel",
-          "Iron Sword",
-          "Leather",
-          "Leather Boots",
-          "Leather Chestplate",
-          "Leather Helmet",
-          "Leather Horse Armor",
-          "Leather Leggings",
-          "Lectern",
-          "Light Blue Wool",
-          "Light Gray Wool",
-          "Lime Wool",
-          "Lodestone",
-          "Loom",
-          "Mace",
-          "Magenta Wool",
-          "Map",
-          "Melon",
-          "Melon Seeds",
-          "Music Disc 11",
-          "Music Disc 13",
-          "Music Disc 5",
-          "Music Disc Blocks",
-          "Music Disc Cat",
-          "Music Disc Chirp",
-          "Music Disc Creator",
-          "Music Disc Creator Music Box",
-          "Music Disc Far",
-          "Music Disc Mall",
-          "Music Disc Mellohi",
-          "Music Disc Otherside",
-          "Music Disc Pigstep",
-          "Music Disc Precipice",
-          "Music Disc Relic",
-          "Music Disc Stal",
-          "Music Disc Strad",
-          "Music Disc Wait",
-          "Music Disc Ward",
-          "Mutton",
-          "Name Tag",
-          "Nautilus Shell",
-          "Netherite Ingot",
-          "Netherite Scrap",
-          "Netherite Upgrade Smithing Template",
-          "Orange Wool",
-          "Pink Wool",
-          "Porkchop",
-          "Potato",
-          "Pumpkin",
+          "Enchanted Golden Apple",
+          "Experience Bottle"
+        ]
+      },
+      {
+        "id": "builtin.global.liked_safe_foods",
+        "rating": 1,
+        "ratingLabel": "+",
+        "reaction": "Liked",
+        "category": "Safe Foods",
+        "items": [
+          "Bread",
+          "Apple",
+          "Cookie",
+          "Cake",
           "Pumpkin Pie",
-          "Pumpkin Seeds",
-          "Purple Wool",
-          "Quartz",
-          "Quartz Block",
-          "Rabbit",
-          "Rabbit Hide",
-          "Rabbit Stew",
-          "Recovery Compass",
-          "Red Wool",
-          "Saddle",
-          "Salmon",
-          "Shears",
-          "Shield",
-          "Smithing Table",
-          "Smoker",
-          "Smooth Stone",
-          "Spectral Arrow",
-          "Spyglass",
-          "Stone",
-          "Stone Bricks",
-          "Stonecutter",
-          "Target",
-          "Totem Of Undying",
-          "Tripwire Hook",
-          "Tropical Fish",
-          "Water Bucket",
-          "Wheat",
-          "Wheat Seeds",
-          "White Wool",
-          "Writable Book",
-          "Written Book",
-          "Yellow Wool"
-        ],
-        "examples": [
+          "Honey Bottle",
+          "Sweet Berries",
+          "Glow Berries",
+          "Milk Bucket",
+          "Baked Potato",
+          "Carrot",
+          "Golden Carrot",
+          "Melon Slice"
+        ]
+      },
+      {
+        "id": "builtin.global.liked_village_goods",
+        "rating": 1,
+        "ratingLabel": "+",
+        "reaction": "Liked",
+        "category": "Village Goods",
+        "items": [
+          "Emerald Ore",
+          "Deepslate Emerald Ore",
+          "Lantern",
+          "Flower Pot",
+          "Torch",
+          "Campfire",
+          "Barrel",
+          "Chest",
+          "Crafting Table"
+        ]
+      },
+      {
+        "id": "builtin.global.neutral_everyday",
+        "rating": 0,
+        "ratingLabel": "0",
+        "reaction": "Neutral",
+        "category": "Everyday Items",
+        "items": [
+          "Dirt",
+          "Cobblestone",
+          "Stick",
+          "Bowl",
+          "Paper",
+          "Glass Bottle"
+        ]
+      },
+      {
+        "id": "builtin.global.disliked_unsafe",
+        "rating": -1,
+        "ratingLabel": "-",
+        "reaction": "Disliked",
+        "category": "Unpleasant Items",
+        "items": [
+          "Bone",
+          "Bone Meal",
+          "Dead Bush",
+          "Slime Ball",
+          "Suspicious Stew",
+          "Cobweb"
+        ]
+      },
+      {
+        "id": "builtin.global.hated_dangers",
+        "rating": -2,
+        "ratingLabel": "--",
+        "reaction": "Hated",
+        "category": "Dangerous Items",
+        "items": [
+          "Rotten Flesh",
+          "Poisonous Potato",
+          "Spider Eye",
+          "Fermented Spider Eye",
+          "Gunpowder",
+          "Fire Charge",
+          "Flint And Steel",
+          "Wither Rose",
+          "Pufferfish",
+          "Phantom Membrane",
+          "Magma Cream",
+          "Firework Rocket",
+          "Ominous Bottle",
+          "Ominous Trial Key"
+        ]
+      },
+      {
+        "id": "builtin.global.hated_hazards",
+        "rating": -3,
+        "ratingLabel": "---",
+        "reaction": "Hated",
+        "category": "Hostile Offerings",
+        "items": [
+          "Tnt",
+          "Tnt Minecart",
+          "Lava Bucket",
+          "Wither Skeleton Skull"
+        ]
+      }
+    ],
+    "professionPreferences": [
+      {
+        "profession": "Fisherman",
+        "entries": [
+          {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Exceptional Valuables",
+            "items": [
+              "Emerald Block"
+            ]
+          },
           {
             "id": "builtin.global.loved_valuables",
-            "professions": [],
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
             "items": [
               "Emerald",
               "Diamond",
@@ -62785,327 +63100,11 @@ window.VR_WIKI_DATA = {
             ]
           },
           {
-            "id": "builtin.global.loved_emerald_block",
-            "professions": [],
-            "items": [
-              "Emerald Block"
-            ]
-          },
-          {
-            "id": "builtin.armorer.loved",
-            "professions": [
-              "Armorer"
-            ],
-            "items": [
-              "Iron Ingot",
-              "Iron Block",
-              "Shield",
-              "Chainmail Helmet",
-              "Chainmail Chestplate",
-              "Chainmail Leggings",
-              "Chainmail Boots",
-              "Iron Helmet",
-              "Iron Chestplate",
-              "Iron Leggings",
-              "Iron Boots",
-              "Diamond Helmet",
-              "Diamond Chestplate",
-              "Diamond Leggings"
-            ]
-          },
-          {
-            "id": "builtin.butcher.loved",
-            "professions": [
-              "Butcher"
-            ],
-            "items": [
-              "Beef",
-              "Porkchop",
-              "Mutton",
-              "Chicken",
-              "Rabbit",
-              "Cooked Beef",
-              "Cooked Porkchop",
-              "Cooked Mutton",
-              "Cooked Chicken",
-              "Cooked Rabbit",
-              "Rabbit Stew",
-              "Smoker"
-            ]
-          },
-          {
-            "id": "builtin.cartographer.loved",
-            "professions": [
-              "Cartographer"
-            ],
-            "items": [
-              "Map",
-              "Filled Map",
-              "Compass",
-              "Recovery Compass",
-              "Clock",
-              "Cartography Table",
-              "Spyglass",
-              "Lodestone"
-            ]
-          },
-          {
-            "id": "builtin.cleric.loved",
-            "professions": [
-              "Cleric"
-            ],
-            "items": [
-              "Amethyst Shard",
-              "Glowstone Dust",
-              "Glowstone",
-              "Experience Bottle",
-              "Ender Pearl",
-              "Blaze Rod",
-              "Brewing Stand",
-              "Ghast Tear",
-              "Dragon Breath",
-              "Echo Shard",
-              "Totem Of Undying"
-            ]
-          },
-          {
-            "id": "builtin.farmer.loved",
-            "professions": [
-              "Farmer"
-            ],
-            "items": [
-              "Wheat Seeds",
-              "Beetroot Seeds",
-              "Pumpkin Seeds",
-              "Melon Seeds",
-              "Carrot",
-              "Potato",
-              "Beetroot",
-              "Wheat",
-              "Pumpkin",
-              "Melon",
-              "Hay Block",
-              "Composter",
-              "Golden Carrot",
-              "Golden Apple"
-            ]
-          },
-          {
-            "id": "builtin.fisherman.loved",
-            "professions": [
-              "Fisherman"
-            ],
-            "items": [
-              "Fishing Rod",
-              "Cod",
-              "Salmon",
-              "Tropical Fish",
-              "Cooked Cod",
-              "Cooked Salmon",
-              "Nautilus Shell",
-              "Heart Of The Sea",
-              "Barrel",
-              "Bucket",
-              "Water Bucket"
-            ]
-          }
-        ]
-      },
-      {
-        "reaction": "Liked",
-        "count": 16,
-        "allItems": [
-          "Acacia Planks",
-          "Allium",
-          "Andesite",
-          "Anvil",
-          "Apple",
-          "Armor Stand",
-          "Arrow",
-          "Azure Bluet",
-          "Baked Potato",
-          "Bamboo",
-          "Barrel",
-          "Birch Planks",
-          "Black Dye",
-          "Blast Furnace",
-          "Blaze Powder",
-          "Blue Banner",
-          "Blue Candle",
-          "Blue Carpet",
-          "Blue Dye",
-          "Blue Orchid",
-          "Boat",
-          "Bone Meal",
-          "Book",
-          "Bow",
-          "Bowl",
-          "Bread",
-          "Brown Dye",
-          "Brown Mushroom",
-          "Brown Terracotta",
-          "Brush",
-          "Cactus",
-          "Cake",
-          "Calcite",
-          "Campfire",
-          "Candle",
-          "Carrot",
-          "Charcoal",
-          "Cherry Planks",
-          "Chest",
-          "Chipped Anvil",
-          "Clock",
-          "Coal",
-          "Coarse Dirt",
-          "Cobbled Deepslate",
-          "Cocoa Beans",
-          "Compass",
-          "Cookie",
-          "Copper Block",
-          "Copper Ingot",
-          "Cornflower",
-          "Crafting Table",
-          "Crossbow",
-          "Cyan Dye",
-          "Damaged Anvil",
-          "Dandelion",
-          "Dark Oak Planks",
-          "Deepslate",
-          "Deepslate Emerald Ore",
-          "Diamond",
-          "Diorite",
-          "Dirt",
-          "Dried Kelp",
-          "Egg",
-          "Emerald Ore",
-          "Feather",
-          "Filled Map",
-          "Flint",
-          "Flower Pot",
-          "Glass Bottle",
-          "Glow Berries",
-          "Glow Ink Sac",
-          "Glow Item Frame",
-          "Gold Ingot",
-          "Golden Carrot",
-          "Granite",
-          "Gray Dye",
-          "Green Banner",
-          "Green Dye",
-          "Grindstone",
-          "Hay Block",
-          "Honey Bottle",
-          "Honeycomb",
-          "Ink Sac",
-          "Iron Ingot",
-          "Iron Nugget",
-          "Item Frame",
-          "Jungle Planks",
-          "Kelp",
-          "Lantern",
-          "Lapis Lazuli",
-          "Lead",
-          "Light Blue Banner",
-          "Light Blue Dye",
-          "Light Gray Candle",
-          "Light Gray Dye",
-          "Lilac",
-          "Lily Of The Valley",
-          "Lily Pad",
-          "Lime Dye",
-          "Magenta Dye",
-          "Magma Cream",
-          "Mangrove Planks",
-          "Map",
-          "Melon Slice",
-          "Milk Bucket",
-          "Mud",
-          "Mud Bricks",
-          "Name Tag",
-          "Nether Wart",
-          "Oak Boat",
-          "Oak Planks",
-          "Orange Banner",
-          "Orange Dye",
-          "Orange Terracotta",
-          "Oxeye Daisy",
-          "Painting",
-          "Paper",
-          "Peony",
-          "Pink Dye",
-          "Pitcher Pod",
-          "Polished Andesite",
-          "Polished Deepslate",
-          "Polished Diorite",
-          "Polished Granite",
-          "Polished Tuff",
-          "Poppy",
-          "Powder Snow Bucket",
-          "Prismarine Crystals",
-          "Prismarine Shard",
-          "Pumpkin Pie",
-          "Purple Dye",
-          "Rabbit Foot",
-          "Red Banner",
-          "Red Candle",
-          "Red Carpet",
-          "Red Dye",
-          "Red Mushroom",
-          "Red Sandstone",
-          "Red Terracotta",
-          "Redstone",
-          "Rooted Dirt",
-          "Rose Bush",
-          "Sandstone",
-          "Sculk",
-          "Sculk Catalyst",
-          "Sculk Sensor",
-          "Sculk Shrieker",
-          "Sea Pickle",
-          "Seagrass",
-          "Slime Ball",
-          "Smithing Table",
-          "Snowball",
-          "Soul Lantern",
-          "Soul Torch",
-          "Spectral Arrow",
-          "Sponge",
-          "Spruce Boat",
-          "Spruce Planks",
-          "Stick",
-          "Stone Axe",
-          "Stone Hoe",
-          "Stone Pickaxe",
-          "Stone Shovel",
-          "String",
-          "Sugar Cane",
-          "Sunflower",
-          "Sweet Berries",
-          "Terracotta",
-          "Torch",
-          "Torchflower Seeds",
-          "Trident",
-          "Tuff",
-          "Turtle Egg",
-          "Turtle Helmet",
-          "Turtle Scute",
-          "Water Bucket",
-          "Wet Sponge",
-          "Wheat",
-          "White Banner",
-          "White Candle",
-          "White Carpet",
-          "White Dye",
-          "White Terracotta",
-          "Writable Book",
-          "Yellow Banner",
-          "Yellow Dye"
-        ],
-        "examples": [
-          {
             "id": "builtin.global.liked_safe_foods",
-            "professions": [],
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
               "Bread",
               "Apple",
@@ -63124,7 +63123,240 @@ window.VR_WIKI_DATA = {
           },
           {
             "id": "builtin.global.liked_village_goods",
-            "professions": [],
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.cooked_fish",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Cooked Fish",
+            "items": [
+              "Cooked Fish (tag)"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.raw_fish",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Raw Fish",
+            "items": [
+              "Raw Fish (tag)"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.boats",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Boats",
+            "items": [
+              "Boats (tag)"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.pufferfish",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Pufferfish",
+            "items": [
+              "Pufferfish"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Fisherman Favorites",
+            "items": [
+              "Fishing Rod",
+              "Nautilus Shell",
+              "Heart Of The Sea",
+              "Barrel",
+              "Bucket",
+              "Water Bucket"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Fisherman Useful Items",
+            "items": [
+              "String",
+              "Kelp",
+              "Dried Kelp",
+              "Seagrass",
+              "Sea Pickle",
+              "Lily Pad",
+              "Prismarine Shard",
+              "Prismarine Crystals",
+              "Sponge",
+              "Wet Sponge",
+              "Turtle Scute",
+              "Turtle Egg"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.neutral",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Fisherman Everyday Items",
+            "items": [
+              "Sand",
+              "Gravel",
+              "Clay Ball"
+            ]
+          },
+          {
+            "id": "builtin.fisherman.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Fisherman Unwanted Items",
+            "items": [
+              "Rotten Flesh",
+              "Phantom Membrane",
+              "Magma Cream"
+            ]
+          }
+        ]
+      },
+      {
+        "profession": "Armorer",
+        "entries": [
+          {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Exceptional Valuables",
+            "items": [
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
               "Emerald Ore",
               "Deepslate Emerald Ore",
@@ -63138,10 +63370,111 @@ window.VR_WIKI_DATA = {
             ]
           },
           {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.armorer.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Armorer Exceptional Favorites",
+            "items": [
+              "Diamond Helmet",
+              "Diamond Chestplate",
+              "Diamond Leggings",
+              "Diamond Boots",
+              "Netherite Scrap",
+              "Netherite Ingot"
+            ]
+          },
+          {
+            "id": "builtin.armorer.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Armorer Favorites",
+            "items": [
+              "Iron Ingot",
+              "Iron Block",
+              "Shield",
+              "Chainmail Helmet",
+              "Chainmail Chestplate",
+              "Chainmail Leggings",
+              "Chainmail Boots",
+              "Iron Helmet",
+              "Iron Chestplate",
+              "Iron Leggings",
+              "Iron Boots"
+            ]
+          },
+          {
             "id": "builtin.armorer.liked",
-            "professions": [
-              "Armorer"
-            ],
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Armorer Useful Items",
             "items": [
               "Coal",
               "Charcoal",
@@ -63158,462 +63491,29 @@ window.VR_WIKI_DATA = {
             ]
           },
           {
-            "id": "builtin.butcher.liked",
-            "professions": [
-              "Butcher"
-            ],
+            "id": "builtin.armorer.neutral",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Armorer Everyday Items",
             "items": [
-              "Charcoal",
-              "Coal",
-              "Egg",
-              "Wheat",
-              "Hay Block",
-              "Bowl",
-              "Campfire",
-              "Sweet Berries",
-              "Honey Bottle"
-            ]
-          },
-          {
-            "id": "builtin.cartographer.liked",
-            "professions": [
-              "Cartographer"
-            ],
-            "items": [
-              "Paper",
-              "Feather",
-              "Ink Sac",
-              "Glow Ink Sac",
-              "Book",
-              "Writable Book",
-              "White Banner",
-              "Blue Banner",
-              "Red Banner",
-              "Green Banner",
-              "Orange Banner",
-              "Light Blue Banner",
-              "Yellow Banner"
-            ]
-          },
-          {
-            "id": "builtin.cleric.liked",
-            "professions": [
-              "Cleric"
-            ],
-            "items": [
-              "Redstone",
-              "Lapis Lazuli",
-              "Blaze Powder",
-              "Nether Wart",
-              "Glass Bottle",
-              "Honey Bottle",
-              "Rabbit Foot",
-              "Magma Cream",
-              "Sculk",
-              "Sculk Sensor",
-              "Sculk Catalyst",
-              "Sculk Shrieker",
-              "Soul Lantern",
-              "Soul Torch"
-            ]
-          },
-          {
-            "id": "builtin.farmer.liked",
-            "professions": [
-              "Farmer"
-            ],
-            "items": [
-              "Melon Slice",
-              "Apple",
-              "Sweet Berries",
-              "Glow Berries",
-              "Sugar Cane",
-              "Cocoa Beans",
-              "Cactus",
-              "Bamboo",
-              "Kelp",
-              "Dried Kelp",
-              "Brown Mushroom",
-              "Red Mushroom",
-              "Torchflower Seeds",
-              "Pitcher Pod"
-            ]
-          },
-          {
-            "id": "builtin.fisherman.liked",
-            "professions": [
-              "Fisherman"
-            ],
-            "items": [
-              "String",
-              "Kelp",
-              "Dried Kelp",
-              "Seagrass",
-              "Sea Pickle",
-              "Lily Pad",
-              "Prismarine Shard",
-              "Prismarine Crystals",
-              "Sponge",
-              "Wet Sponge",
-              "Turtle Scute",
-              "Turtle Egg",
-              "Boat",
-              "Oak Boat"
-            ]
-          }
-        ]
-      },
-      {
-        "reaction": "Neutral",
-        "count": 0,
-        "allItems": [],
-        "examples": []
-      },
-      {
-        "reaction": "Disliked",
-        "count": 15,
-        "allItems": [
-          "Bone",
-          "Bone Meal",
-          "Cobweb",
-          "Dead Bush",
-          "Fermented Spider Eye",
-          "Fire Charge",
-          "Firework Rocket",
-          "Gravel",
-          "Gunpowder",
-          "Leather Boots",
-          "Leather Chestplate",
-          "Leather Helmet",
-          "Leather Leggings",
-          "Magma Cream",
-          "Phantom Membrane",
-          "Poisonous Potato",
-          "Pufferfish",
-          "Rotten Flesh",
-          "Sand",
-          "Shears",
-          "Shield",
-          "Slime Ball",
-          "Spider Eye",
-          "Suspicious Stew",
-          "Tnt",
-          "Wither Rose",
-          "Wooden Axe",
-          "Wooden Hoe",
-          "Wooden Pickaxe",
-          "Wooden Shovel",
-          "Wooden Sword"
-        ],
-        "examples": [
-          {
-            "id": "builtin.global.disliked_unsafe",
-            "professions": [],
-            "items": [
-              "Bone",
-              "Bone Meal",
-              "Dead Bush",
-              "Pufferfish",
-              "Phantom Membrane",
-              "Magma Cream",
-              "Slime Ball",
-              "Firework Rocket",
-              "Suspicious Stew",
-              "Cobweb",
-              "Poisonous Potato"
+              "Stone",
+              "Furnace"
             ]
           },
           {
             "id": "builtin.armorer.disliked",
-            "professions": [
-              "Armorer"
-            ],
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Armorer Unwanted Items",
             "items": [
               "Leather Chestplate",
               "Leather Helmet",
               "Leather Leggings",
               "Leather Boots",
               "Wooden Sword",
-              "Dead Bush",
               "Rotten Flesh"
-            ]
-          },
-          {
-            "id": "builtin.butcher.disliked",
-            "professions": [
-              "Butcher"
-            ],
-            "items": [
-              "Bone",
-              "Bone Meal",
-              "Wither Rose",
-              "Pufferfish",
-              "Magma Cream"
-            ]
-          },
-          {
-            "id": "builtin.cartographer.disliked",
-            "professions": [
-              "Cartographer"
-            ],
-            "items": [
-              "Dead Bush",
-              "Suspicious Stew",
-              "Rotten Flesh",
-              "Cobweb",
-              "Phantom Membrane"
-            ]
-          },
-          {
-            "id": "builtin.cleric.disliked",
-            "professions": [
-              "Cleric"
-            ],
-            "items": [
-              "Rotten Flesh",
-              "Fermented Spider Eye",
-              "Poisonous Potato",
-              "Dead Bush",
-              "Spider Eye"
-            ]
-          },
-          {
-            "id": "builtin.farmer.disliked",
-            "professions": [
-              "Farmer"
-            ],
-            "items": [
-              "Rotten Flesh",
-              "Spider Eye",
-              "Fermented Spider Eye",
-              "Gunpowder",
-              "Tnt"
-            ]
-          },
-          {
-            "id": "builtin.fisherman.disliked",
-            "professions": [
-              "Fisherman"
-            ],
-            "items": [
-              "Pufferfish",
-              "Rotten Flesh",
-              "Phantom Membrane",
-              "Magma Cream",
-              "Fire Charge"
-            ]
-          },
-          {
-            "id": "builtin.fletcher.disliked",
-            "professions": [
-              "Fletcher"
-            ],
-            "items": [
-              "Shield",
-              "Rotten Flesh",
-              "Wither Rose",
-              "Dead Bush"
-            ]
-          }
-        ]
-      },
-      {
-        "reaction": "Hated",
-        "count": 15,
-        "allItems": [
-          "Dead Bush",
-          "Fermented Spider Eye",
-          "Fire Charge",
-          "Flint And Steel",
-          "Gunpowder",
-          "Lava Bucket",
-          "Ominous Bottle",
-          "Ominous Trial Key",
-          "Poisonous Potato",
-          "Rotten Flesh",
-          "Spider Eye",
-          "Suspicious Stew",
-          "Tnt",
-          "Tnt Minecart",
-          "Trial Key",
-          "Wither Rose",
-          "Wither Skeleton Skull"
-        ],
-        "examples": [
-          {
-            "id": "builtin.global.hated_hazards",
-            "professions": [],
-            "items": [
-              "Rotten Flesh",
-              "Poisonous Potato",
-              "Spider Eye",
-              "Fermented Spider Eye",
-              "Gunpowder",
-              "Tnt",
-              "Tnt Minecart",
-              "Fire Charge",
-              "Flint And Steel",
-              "Lava Bucket",
-              "Wither Rose",
-              "Wither Skeleton Skull",
-              "Ominous Bottle",
-              "Trial Key"
-            ]
-          },
-          {
-            "id": "builtin.armorer.hated",
-            "professions": [
-              "Armorer"
-            ],
-            "items": [
-              "Tnt",
-              "Tnt Minecart",
-              "Fire Charge",
-              "Lava Bucket",
-              "Flint And Steel"
-            ]
-          },
-          {
-            "id": "builtin.butcher.hated",
-            "professions": [
-              "Butcher"
-            ],
-            "items": [
-              "Rotten Flesh",
-              "Poisonous Potato",
-              "Spider Eye",
-              "Fermented Spider Eye",
-              "Suspicious Stew"
-            ]
-          },
-          {
-            "id": "builtin.cartographer.hated",
-            "professions": [
-              "Cartographer"
-            ],
-            "items": [
-              "Tnt",
-              "Tnt Minecart",
-              "Flint And Steel",
-              "Fire Charge",
-              "Lava Bucket"
-            ]
-          },
-          {
-            "id": "builtin.cleric.hated",
-            "professions": [
-              "Cleric"
-            ],
-            "items": [
-              "Tnt",
-              "Tnt Minecart",
-              "Wither Skeleton Skull",
-              "Wither Rose",
-              "Ominous Bottle"
-            ]
-          },
-          {
-            "id": "builtin.farmer.hated",
-            "professions": [
-              "Farmer"
-            ],
-            "items": [
-              "Poisonous Potato",
-              "Dead Bush",
-              "Wither Rose",
-              "Lava Bucket"
-            ]
-          },
-          {
-            "id": "builtin.fisherman.hated",
-            "professions": [
-              "Fisherman"
-            ],
-            "items": [
-              "Tnt",
-              "Tnt Minecart",
-              "Lava Bucket",
-              "Flint And Steel"
-            ]
-          },
-          {
-            "id": "builtin.fletcher.hated",
-            "professions": [
-              "Fletcher"
-            ],
-            "items": [
-              "Tnt",
-              "Tnt Minecart",
-              "Fire Charge",
-              "Lava Bucket"
-            ]
-          }
-        ]
-      }
-    ],
-    "professionPreferences": [
-      {
-        "profession": "Armorer",
-        "entries": [
-          {
-            "reaction": "Loved",
-            "items": [
-              "Chainmail Boots",
-              "Chainmail Chestplate",
-              "Chainmail Helmet",
-              "Chainmail Leggings",
-              "Diamond Boots",
-              "Diamond Chestplate",
-              "Diamond Helmet",
-              "Diamond Leggings",
-              "Iron Block",
-              "Iron Boots",
-              "Iron Chestplate",
-              "Iron Helmet",
-              "Iron Ingot",
-              "Iron Leggings",
-              "Netherite Ingot",
-              "Netherite Scrap",
-              "Shield"
-            ]
-          },
-          {
-            "reaction": "Liked",
-            "items": [
-              "Anvil",
-              "Armor Stand",
-              "Blast Furnace",
-              "Charcoal",
-              "Chipped Anvil",
-              "Coal",
-              "Copper Block",
-              "Copper Ingot",
-              "Damaged Anvil",
-              "Diamond",
-              "Iron Nugget",
-              "Turtle Helmet"
-            ]
-          },
-          {
-            "reaction": "Hated",
-            "items": [
-              "Fire Charge",
-              "Flint And Steel",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
-            ]
-          },
-          {
-            "reaction": "Disliked",
-            "items": [
-              "Dead Bush",
-              "Leather Boots",
-              "Leather Chestplate",
-              "Leather Helmet",
-              "Leather Leggings",
-              "Rotten Flesh",
-              "Wooden Sword"
             ]
           }
         ]
@@ -63622,54 +63522,205 @@ window.VR_WIKI_DATA = {
         "profession": "Butcher",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Beef",
-              "Chicken",
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Phantom Membrane",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.butcher.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Butcher Exceptional Favorites",
+            "items": [
               "Cooked Beef",
-              "Cooked Chicken",
-              "Cooked Mutton",
               "Cooked Porkchop",
+              "Cooked Mutton",
+              "Cooked Chicken",
               "Cooked Rabbit",
-              "Mutton",
-              "Porkchop",
-              "Rabbit",
               "Rabbit Stew",
               "Smoker"
             ]
           },
           {
-            "reaction": "Liked",
+            "id": "builtin.butcher.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Butcher Favorites",
             "items": [
-              "Bowl",
-              "Campfire",
-              "Charcoal",
-              "Coal",
-              "Egg",
-              "Hay Block",
-              "Honey Bottle",
-              "Sweet Berries",
-              "Wheat"
+              "Beef",
+              "Porkchop",
+              "Mutton",
+              "Chicken",
+              "Rabbit"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.butcher.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Butcher Useful Items",
             "items": [
-              "Fermented Spider Eye",
-              "Poisonous Potato",
-              "Rotten Flesh",
-              "Spider Eye",
+              "Charcoal",
+              "Coal",
+              "Egg",
+              "Wheat",
+              "Hay Block"
+            ]
+          },
+          {
+            "id": "builtin.butcher.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Butcher Unwanted Items",
+            "items": [
+              "Wither Rose",
+              "Pufferfish",
+              "Magma Cream"
+            ]
+          },
+          {
+            "id": "builtin.butcher.dangerous",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Butcher Serious Hazards",
+            "items": [
               "Suspicious Stew"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.butcher.hated",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Butcher Severe Hazards",
             "items": [
-              "Bone",
-              "Bone Meal",
-              "Magma Cream",
-              "Pufferfish",
-              "Wither Rose"
+              "Rotten Flesh",
+              "Poisonous Potato"
             ]
           }
         ]
@@ -63678,54 +63729,190 @@ window.VR_WIKI_DATA = {
         "profession": "Cartographer",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Cartography Table",
-              "Clock",
-              "Compass",
-              "Filled Map",
-              "Lodestone",
-              "Map",
-              "Recovery Compass",
-              "Spyglass"
+              "Emerald Block"
             ]
           },
           {
-            "reaction": "Liked",
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
             "items": [
-              "Blue Banner",
-              "Book",
-              "Feather",
-              "Glow Ink Sac",
-              "Green Banner",
-              "Ink Sac",
-              "Light Blue Banner",
-              "Orange Banner",
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.cartographer.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Cartographer Exceptional Favorites",
+            "items": [
+              "Recovery Compass",
+              "Cartography Table",
+              "Spyglass",
+              "Lodestone"
+            ]
+          },
+          {
+            "id": "builtin.cartographer.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Cartographer Favorites",
+            "items": [
+              "Map",
+              "Filled Map",
+              "Compass",
+              "Clock"
+            ]
+          },
+          {
+            "id": "builtin.cartographer.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Cartographer Useful Items",
+            "items": [
               "Paper",
-              "Red Banner",
-              "White Banner",
+              "Feather",
+              "Ink Sac",
+              "Glow Ink Sac",
+              "Book",
               "Writable Book",
+              "White Banner",
+              "Blue Banner",
+              "Red Banner",
+              "Green Banner",
+              "Orange Banner",
+              "Light Blue Banner",
               "Yellow Banner"
             ]
           },
           {
-            "reaction": "Hated",
-            "items": [
-              "Fire Charge",
-              "Flint And Steel",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
-            ]
-          },
-          {
+            "id": "builtin.cartographer.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Cartographer Unwanted Items",
             "items": [
-              "Cobweb",
-              "Dead Bush",
-              "Phantom Membrane",
               "Rotten Flesh",
-              "Suspicious Stew"
+              "Phantom Membrane"
             ]
           }
         ]
@@ -63734,57 +63921,201 @@ window.VR_WIKI_DATA = {
         "profession": "Cleric",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Amethyst Shard",
-              "Blaze Rod",
-              "Brewing Stand",
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.cleric.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Cleric Exceptional Favorites",
+            "items": [
+              "Ghast Tear",
               "Dragon Breath",
               "Echo Shard",
-              "Ender Pearl",
-              "Experience Bottle",
-              "Ghast Tear",
-              "Glowstone",
-              "Glowstone Dust",
               "Totem Of Undying"
             ]
           },
           {
-            "reaction": "Liked",
+            "id": "builtin.cleric.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Cleric Favorites",
             "items": [
-              "Blaze Powder",
-              "Glass Bottle",
-              "Honey Bottle",
-              "Lapis Lazuli",
-              "Magma Cream",
-              "Nether Wart",
-              "Rabbit Foot",
+              "Amethyst Shard",
+              "Glowstone Dust",
+              "Glowstone",
+              "Ender Pearl",
+              "Blaze Rod",
+              "Brewing Stand"
+            ]
+          },
+          {
+            "id": "builtin.cleric.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Cleric Useful Items",
+            "items": [
               "Redstone",
+              "Lapis Lazuli",
+              "Blaze Powder",
+              "Nether Wart",
+              "Glass Bottle",
+              "Rabbit Foot",
+              "Magma Cream",
               "Sculk",
-              "Sculk Catalyst",
               "Sculk Sensor",
+              "Sculk Catalyst",
               "Sculk Shrieker",
               "Soul Lantern",
               "Soul Torch"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.cleric.neutral",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Cleric Everyday Items",
             "items": [
-              "Ominous Bottle",
-              "Tnt",
-              "Tnt Minecart",
-              "Wither Rose",
-              "Wither Skeleton Skull"
+              "Book",
+              "Candle"
             ]
           },
           {
+            "id": "builtin.cleric.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Cleric Unwanted Items",
             "items": [
-              "Dead Bush",
+              "Rotten Flesh",
               "Fermented Spider Eye",
               "Poisonous Potato",
-              "Rotten Flesh",
               "Spider Eye"
             ]
           }
@@ -63794,125 +64125,212 @@ window.VR_WIKI_DATA = {
         "profession": "Farmer",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Beetroot",
-              "Beetroot Seeds",
-              "Carrot",
-              "Composter",
-              "Golden Apple",
-              "Golden Carrot",
-              "Hay Block",
-              "Melon",
-              "Melon Seeds",
-              "Potato",
-              "Pumpkin",
-              "Pumpkin Seeds",
-              "Wheat",
-              "Wheat Seeds"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
+              "Bread",
               "Apple",
-              "Bamboo",
-              "Bone Meal",
-              "Brown Mushroom",
-              "Cactus",
-              "Coarse Dirt",
-              "Cocoa Beans",
-              "Dirt",
-              "Dried Kelp",
-              "Glow Berries",
-              "Kelp",
-              "Melon Slice",
-              "Mud",
-              "Pitcher Pod",
-              "Red Mushroom",
-              "Rooted Dirt",
-              "Sugar Cane",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
               "Sweet Berries",
-              "Torchflower Seeds"
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
-              "Dead Bush",
-              "Lava Bucket",
-              "Poisonous Potato",
-              "Wither Rose"
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
             ]
           },
           {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Unpleasant Items",
             "items": [
-              "Fermented Spider Eye",
-              "Gunpowder",
+              "Bone",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Fire Charge",
+              "Flint And Steel",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.farmer.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Farmer Exceptional Favorites",
+            "items": [
+              "Hay Block",
+              "Composter",
+              "Golden Carrot",
+              "Golden Apple"
+            ]
+          },
+          {
+            "id": "builtin.farmer.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Farmer Favorites",
+            "items": [
+              "Wheat Seeds",
+              "Beetroot Seeds",
+              "Pumpkin Seeds",
+              "Melon Seeds",
+              "Carrot",
+              "Potato",
+              "Beetroot",
+              "Wheat",
+              "Pumpkin",
+              "Melon"
+            ]
+          },
+          {
+            "id": "builtin.farmer.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Farmer Useful Items",
+            "items": [
+              "Sugar Cane",
+              "Cocoa Beans",
+              "Cactus",
+              "Bamboo",
+              "Kelp",
+              "Dried Kelp",
+              "Brown Mushroom",
+              "Red Mushroom",
+              "Torchflower Seeds",
+              "Pitcher Pod",
+              "Bone Meal",
+              "Dirt",
+              "Coarse Dirt",
+              "Rooted Dirt",
+              "Mud"
+            ]
+          },
+          {
+            "id": "builtin.farmer.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Farmer Unwanted Items",
+            "items": [
               "Rotten Flesh",
               "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
               "Tnt"
             ]
-          }
-        ]
-      },
-      {
-        "profession": "Fisherman",
-        "entries": [
-          {
-            "reaction": "Loved",
-            "items": [
-              "Barrel",
-              "Bucket",
-              "Cod",
-              "Cooked Cod",
-              "Cooked Salmon",
-              "Fishing Rod",
-              "Heart Of The Sea",
-              "Nautilus Shell",
-              "Salmon",
-              "Tropical Fish",
-              "Water Bucket"
-            ]
           },
           {
-            "reaction": "Liked",
-            "items": [
-              "Boat",
-              "Dried Kelp",
-              "Kelp",
-              "Lily Pad",
-              "Oak Boat",
-              "Prismarine Crystals",
-              "Prismarine Shard",
-              "Sea Pickle",
-              "Seagrass",
-              "Sponge",
-              "Spruce Boat",
-              "String",
-              "Turtle Egg",
-              "Turtle Scute",
-              "Wet Sponge"
-            ]
-          },
-          {
+            "id": "builtin.farmer.dangerous",
+            "rating": -2,
+            "ratingLabel": "--",
             "reaction": "Hated",
+            "category": "Farmer Serious Hazards",
             "items": [
-              "Flint And Steel",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
+              "Dead Bush"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.farmer.hated",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Farmer Severe Hazards",
             "items": [
-              "Fire Charge",
-              "Magma Cream",
-              "Phantom Membrane",
-              "Pufferfish",
-              "Rotten Flesh"
+              "Wither Rose"
             ]
           }
         ]
@@ -63921,55 +64339,193 @@ window.VR_WIKI_DATA = {
         "profession": "Fletcher",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.fletcher.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Fletcher Exceptional Favorites",
+            "items": [
+              "Spectral Arrow",
+              "Crossbow",
+              "Fletching Table",
+              "Target"
+            ]
+          },
+          {
+            "id": "builtin.fletcher.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Fletcher Favorites",
+            "items": [
+              "Flint",
+              "Feather",
               "Arrow",
               "Bow",
-              "Crossbow",
-              "Feather",
-              "Fletching Table",
-              "Flint",
-              "Spectral Arrow",
-              "Target",
               "Tripwire Hook"
             ]
           },
           {
+            "id": "builtin.fletcher.liked",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Fletcher Useful Items",
             "items": [
-              "Acacia Planks",
+              "Stick",
+              "String",
               "Bamboo",
-              "Birch Planks",
-              "Cherry Planks",
               "Copper Ingot",
-              "Dark Oak Planks",
-              "Honeycomb",
               "Iron Ingot",
-              "Jungle Planks",
-              "Mangrove Planks",
-              "Oak Planks",
               "Redstone",
               "Slime Ball",
+              "Honeycomb",
+              "Oak Planks",
               "Spruce Planks",
-              "Stick",
-              "String"
+              "Birch Planks",
+              "Jungle Planks",
+              "Acacia Planks",
+              "Dark Oak Planks",
+              "Mangrove Planks",
+              "Cherry Planks"
             ]
           },
           {
-            "reaction": "Hated",
-            "items": [
-              "Fire Charge",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
-            ]
-          },
-          {
+            "id": "builtin.fletcher.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Fletcher Unwanted Items",
             "items": [
-              "Dead Bush",
-              "Rotten Flesh",
               "Shield",
+              "Rotten Flesh",
               "Wither Rose"
             ]
           }
@@ -63979,56 +64535,194 @@ window.VR_WIKI_DATA = {
         "profession": "Leatherworker",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Bundle",
-              "Cauldron",
-              "Leather",
-              "Leather Boots",
-              "Leather Chestplate",
-              "Leather Helmet",
-              "Leather Horse Armor",
-              "Leather Leggings",
-              "Rabbit Hide",
-              "Saddle"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Black Dye",
-              "Blue Dye",
-              "Brown Dye",
-              "Brush",
-              "Cyan Dye",
-              "Green Dye",
-              "Lead",
-              "Name Tag",
-              "Orange Dye",
-              "Powder Snow Bucket",
-              "Purple Dye",
-              "Red Dye",
-              "Water Bucket",
-              "White Dye",
-              "Yellow Dye"
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
-              "Fire Charge",
-              "Flint And Steel",
-              "Lava Bucket",
-              "Tnt"
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
             ]
           },
           {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Unpleasant Items",
             "items": [
               "Bone",
               "Bone Meal",
-              "Poisonous Potato",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.leatherworker.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Leatherworker Exceptional Favorites",
+            "items": [
+              "Saddle",
+              "Leather Horse Armor",
+              "Cauldron",
+              "Bundle"
+            ]
+          },
+          {
+            "id": "builtin.leatherworker.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Leatherworker Favorites",
+            "items": [
+              "Leather",
+              "Rabbit Hide",
+              "Leather Helmet",
+              "Leather Chestplate",
+              "Leather Leggings",
+              "Leather Boots"
+            ]
+          },
+          {
+            "id": "builtin.leatherworker.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Leatherworker Useful Items",
+            "items": [
+              "Lead",
+              "Name Tag",
+              "Brush",
+              "Water Bucket",
+              "Powder Snow Bucket",
+              "White Dye",
+              "Black Dye",
+              "Brown Dye",
+              "Blue Dye",
+              "Red Dye",
+              "Yellow Dye",
+              "Green Dye",
+              "Purple Dye",
+              "Cyan Dye",
+              "Orange Dye"
+            ]
+          },
+          {
+            "id": "builtin.leatherworker.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Leatherworker Unwanted Items",
+            "items": [
               "Rotten Flesh",
+              "Poisonous Potato",
               "Wither Rose"
             ]
           }
@@ -64038,56 +64732,191 @@ window.VR_WIKI_DATA = {
         "profession": "Librarian",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Book",
-              "Bookshelf",
-              "Chiseled Bookshelf",
-              "Enchanted Book",
-              "Lectern",
-              "Name Tag",
-              "Recovery Compass",
-              "Writable Book",
-              "Written Book"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Blue Candle",
-              "Candle",
-              "Clock",
-              "Compass",
-              "Feather",
-              "Filled Map",
-              "Glow Ink Sac",
-              "Ink Sac",
-              "Lantern",
-              "Light Gray Candle",
-              "Map",
-              "Paper",
-              "Red Candle",
-              "White Candle"
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
               "Fire Charge",
               "Flint And Steel",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
             "items": [
-              "Cobweb",
-              "Dead Bush",
-              "Poisonous Potato",
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.librarian.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Librarian Exceptional Favorites",
+            "items": [
+              "Written Book",
+              "Chiseled Bookshelf",
+              "Enchanted Book",
+              "Recovery Compass"
+            ]
+          },
+          {
+            "id": "builtin.librarian.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Librarian Favorites",
+            "items": [
+              "Book",
+              "Writable Book",
+              "Bookshelf",
+              "Lectern",
+              "Name Tag"
+            ]
+          },
+          {
+            "id": "builtin.librarian.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Librarian Useful Items",
+            "items": [
+              "Paper",
+              "Ink Sac",
+              "Glow Ink Sac",
+              "Feather",
+              "Map",
+              "Filled Map",
+              "Clock",
+              "Compass",
+              "Candle",
+              "White Candle",
+              "Blue Candle",
+              "Red Candle",
+              "Light Gray Candle"
+            ]
+          },
+          {
+            "id": "builtin.librarian.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Librarian Unwanted Items",
+            "items": [
               "Rotten Flesh",
-              "Suspicious Stew"
+              "Poisonous Potato"
             ]
           }
         ]
@@ -64096,64 +64925,214 @@ window.VR_WIKI_DATA = {
         "profession": "Mason",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Brick",
-              "Bricks",
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.mason.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Mason Exceptional Favorites",
+            "items": [
               "Chiseled Stone Bricks",
-              "Clay",
-              "Clay Ball",
-              "Cut Copper",
-              "Quartz",
               "Quartz Block",
-              "Smooth Stone",
-              "Stone",
-              "Stone Bricks",
+              "Cut Copper",
               "Stonecutter"
             ]
           },
           {
+            "id": "builtin.mason.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Mason Favorites",
+            "items": [
+              "Clay Ball",
+              "Clay",
+              "Brick",
+              "Bricks",
+              "Stone",
+              "Smooth Stone",
+              "Stone Bricks",
+              "Quartz"
+            ]
+          },
+          {
+            "id": "builtin.mason.liked",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Mason Useful Items",
             "items": [
-              "Andesite",
-              "Brown Terracotta",
-              "Calcite",
-              "Cobbled Deepslate",
-              "Deepslate",
-              "Diorite",
               "Granite",
-              "Mud Bricks",
-              "Orange Terracotta",
-              "Polished Andesite",
-              "Polished Deepslate",
-              "Polished Diorite",
               "Polished Granite",
-              "Polished Tuff",
-              "Red Sandstone",
-              "Red Terracotta",
-              "Sandstone",
+              "Diorite",
+              "Polished Diorite",
+              "Andesite",
+              "Polished Andesite",
               "Terracotta",
+              "White Terracotta",
+              "Orange Terracotta",
+              "Red Terracotta",
+              "Brown Terracotta",
+              "Deepslate",
+              "Cobbled Deepslate",
+              "Polished Deepslate",
+              "Mud Bricks",
+              "Sandstone",
+              "Red Sandstone",
+              "Calcite",
               "Tuff",
-              "White Terracotta"
+              "Polished Tuff"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.mason.neutral",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Mason Everyday Items",
             "items": [
-              "Fire Charge",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
+              "Flint"
             ]
           },
           {
+            "id": "builtin.mason.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Mason Unwanted Items",
             "items": [
-              "Dead Bush",
-              "Gravel",
-              "Rotten Flesh",
               "Sand",
-              "Slime Ball"
+              "Gravel",
+              "Rotten Flesh"
             ]
           }
         ]
@@ -64162,69 +65141,207 @@ window.VR_WIKI_DATA = {
         "profession": "Shepherd",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Black Wool",
-              "Blue Wool",
-              "Brown Wool",
-              "Cyan Wool",
-              "Gray Wool",
-              "Green Wool",
-              "Light Blue Wool",
-              "Light Gray Wool",
-              "Lime Wool",
-              "Loom",
-              "Magenta Wool",
-              "Orange Wool",
-              "Pink Wool",
-              "Purple Wool",
-              "Red Wool",
-              "Shears",
-              "White Wool",
-              "Yellow Wool"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Black Dye",
-              "Blue Carpet",
-              "Blue Dye",
-              "Brown Dye",
-              "Cyan Dye",
-              "Gray Dye",
-              "Green Dye",
-              "Lead",
-              "Light Blue Dye",
-              "Light Gray Dye",
-              "Lime Dye",
-              "Magenta Dye",
-              "Orange Dye",
-              "Pink Dye",
-              "Purple Dye",
-              "Red Carpet",
-              "Red Dye",
-              "White Carpet",
-              "White Dye",
-              "Yellow Dye"
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
-              "Fire Charge",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
             ]
           },
           {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Unpleasant Items",
             "items": [
               "Bone",
+              "Bone Meal",
               "Dead Bush",
-              "Rotten Flesh",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.shepherd.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Shepherd Exceptional Favorites",
+            "items": [
               "Shears",
+              "Loom"
+            ]
+          },
+          {
+            "id": "builtin.shepherd.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Shepherd Favorites",
+            "items": [
+              "White Wool",
+              "Black Wool",
+              "Brown Wool",
+              "Gray Wool",
+              "Light Gray Wool",
+              "Red Wool",
+              "Orange Wool",
+              "Yellow Wool",
+              "Green Wool",
+              "Lime Wool",
+              "Blue Wool",
+              "Light Blue Wool",
+              "Cyan Wool",
+              "Purple Wool",
+              "Magenta Wool",
+              "Pink Wool"
+            ]
+          },
+          {
+            "id": "builtin.shepherd.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Shepherd Useful Items",
+            "items": [
+              "White Dye",
+              "Black Dye",
+              "Brown Dye",
+              "Gray Dye",
+              "Light Gray Dye",
+              "Red Dye",
+              "Orange Dye",
+              "Yellow Dye",
+              "Green Dye",
+              "Lime Dye",
+              "Blue Dye",
+              "Light Blue Dye",
+              "Cyan Dye",
+              "Purple Dye",
+              "Magenta Dye",
+              "Pink Dye",
+              "White Carpet",
+              "Red Carpet",
+              "Blue Carpet",
+              "Lead"
+            ]
+          },
+          {
+            "id": "builtin.shepherd.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Shepherd Unwanted Items",
+            "items": [
+              "Rotten Flesh",
               "Wither Rose"
             ]
           }
@@ -64234,59 +65351,198 @@ window.VR_WIKI_DATA = {
         "profession": "Toolsmith",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Anvil",
-              "Diamond",
-              "Diamond Axe",
-              "Diamond Hoe",
-              "Diamond Pickaxe",
-              "Diamond Shovel",
-              "Iron Axe",
-              "Iron Block",
-              "Iron Hoe",
-              "Iron Ingot",
-              "Iron Pickaxe",
-              "Iron Shovel",
-              "Netherite Upgrade Smithing Template",
-              "Smithing Table"
+              "Emerald Block"
             ]
           },
           {
-            "reaction": "Liked",
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
             "items": [
-              "Brush",
-              "Charcoal",
+              "Emerald",
+              "Diamond",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Safe Foods",
+            "items": [
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
+            "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Poisonous Potato",
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.toolsmith.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Toolsmith Exceptional Favorites",
+            "items": [
+              "Diamond Pickaxe",
+              "Diamond Axe",
+              "Diamond Shovel",
+              "Diamond Hoe",
+              "Netherite Upgrade Smithing Template"
+            ]
+          },
+          {
+            "id": "builtin.toolsmith.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Toolsmith Favorites",
+            "items": [
+              "Iron Ingot",
+              "Iron Block",
+              "Anvil",
+              "Smithing Table",
+              "Iron Pickaxe",
+              "Iron Axe",
+              "Iron Shovel",
+              "Iron Hoe"
+            ]
+          },
+          {
+            "id": "builtin.toolsmith.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Toolsmith Useful Items",
+            "items": [
               "Coal",
-              "Copper Ingot",
+              "Charcoal",
               "Flint",
+              "Copper Ingot",
+              "Iron Nugget",
               "Gold Ingot",
               "Grindstone",
-              "Iron Nugget",
-              "Stone Axe",
-              "Stone Hoe",
               "Stone Pickaxe",
-              "Stone Shovel"
+              "Stone Axe",
+              "Stone Shovel",
+              "Stone Hoe",
+              "Brush"
             ]
           },
           {
-            "reaction": "Hated",
-            "items": [
-              "Fire Charge",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
-            ]
-          },
-          {
+            "id": "builtin.toolsmith.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
             "reaction": "Disliked",
+            "category": "Toolsmith Unwanted Items",
             "items": [
-              "Dead Bush",
-              "Rotten Flesh",
-              "Wooden Axe",
-              "Wooden Hoe",
               "Wooden Pickaxe",
-              "Wooden Shovel"
+              "Wooden Axe",
+              "Wooden Shovel",
+              "Wooden Hoe",
+              "Rotten Flesh"
             ]
           }
         ]
@@ -64295,57 +65551,194 @@ window.VR_WIKI_DATA = {
         "profession": "Weaponsmith",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
+              "Emerald Block"
+            ]
+          },
+          {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
               "Diamond",
-              "Diamond Axe",
-              "Diamond Sword",
-              "Grindstone",
-              "Heavy Core",
-              "Iron Axe",
-              "Iron Block",
-              "Iron Ingot",
-              "Iron Sword",
-              "Mace",
-              "Netherite Ingot",
-              "Shield"
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
             ]
           },
           {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Anvil",
-              "Arrow",
-              "Bow",
-              "Charcoal",
-              "Coal",
-              "Copper Ingot",
-              "Crossbow",
-              "Flint",
-              "Gold Ingot",
-              "Smithing Table",
-              "Spectral Arrow",
-              "Trident"
+              "Bread",
+              "Apple",
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Slime Ball",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
+              "Spider Eye",
+              "Fermented Spider Eye",
+              "Gunpowder",
               "Fire Charge",
               "Flint And Steel",
-              "Lava Bucket",
-              "Tnt",
-              "Tnt Minecart"
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
             "items": [
-              "Poisonous Potato",
-              "Rotten Flesh",
-              "Slime Ball",
+              "Tnt",
+              "Tnt Minecart",
+              "Lava Bucket",
+              "Wither Skeleton Skull"
+            ]
+          },
+          {
+            "id": "builtin.weaponsmith.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Weaponsmith Exceptional Favorites",
+            "items": [
+              "Diamond Sword",
+              "Diamond Axe",
+              "Netherite Ingot",
+              "Mace",
+              "Heavy Core"
+            ]
+          },
+          {
+            "id": "builtin.weaponsmith.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Weaponsmith Favorites",
+            "items": [
+              "Iron Ingot",
+              "Iron Block",
+              "Iron Sword",
+              "Iron Axe",
+              "Shield",
+              "Grindstone"
+            ]
+          },
+          {
+            "id": "builtin.weaponsmith.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Weaponsmith Useful Items",
+            "items": [
+              "Coal",
+              "Charcoal",
+              "Flint",
+              "Crossbow",
+              "Bow",
+              "Arrow",
+              "Spectral Arrow",
+              "Trident",
+              "Copper Ingot",
+              "Gold Ingot",
+              "Smithing Table",
+              "Anvil"
+            ]
+          },
+          {
+            "id": "builtin.weaponsmith.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Weaponsmith Unwanted Items",
+            "items": [
+              "Wooden Sword",
               "Wooden Axe",
-              "Wooden Sword"
+              "Rotten Flesh",
+              "Poisonous Potato"
             ]
           }
         ]
@@ -64354,75 +65747,205 @@ window.VR_WIKI_DATA = {
         "profession": "Nitwit",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Apple",
-              "Cake",
-              "Cookie",
-              "Honey Bottle",
-              "Music Disc 11",
-              "Music Disc 13",
-              "Music Disc 5",
-              "Music Disc Blocks",
-              "Music Disc Cat",
-              "Music Disc Chirp",
-              "Music Disc Creator",
-              "Music Disc Creator Music Box",
-              "Music Disc Far",
-              "Music Disc Mall",
-              "Music Disc Mellohi",
-              "Music Disc Otherside",
-              "Music Disc Pigstep",
-              "Music Disc Precipice",
-              "Music Disc Relic",
-              "Music Disc Stal",
-              "Music Disc Strad",
-              "Music Disc Wait",
-              "Music Disc Ward",
-              "Pumpkin Pie"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Allium",
-              "Azure Bluet",
-              "Blue Orchid",
-              "Cornflower",
-              "Dandelion",
-              "Flower Pot",
-              "Glow Item Frame",
-              "Item Frame",
-              "Lilac",
-              "Lily Of The Valley",
-              "Oxeye Daisy",
-              "Painting",
-              "Peony",
-              "Poppy",
-              "Rose Bush",
-              "Slime Ball",
-              "Snowball",
-              "Sunflower"
+              "Bread",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
-              "Lava Bucket",
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
               "Poisonous Potato",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
               "Tnt",
               "Tnt Minecart",
+              "Lava Bucket",
               "Wither Skeleton Skull"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.nitwit.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Nitwit Exceptional Favorites",
             "items": [
-              "Bone",
-              "Dead Bush",
-              "Fermented Spider Eye",
+              "Music Disc Pigstep",
+              "Music Disc Relic",
+              "Music Disc Creator",
+              "Music Disc Creator Music Box",
+              "Music Disc Precipice"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Nitwit Favorites",
+            "items": [
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Apple",
+              "Music Disc 13",
+              "Music Disc Cat",
+              "Music Disc Blocks",
+              "Music Disc Chirp",
+              "Music Disc Far",
+              "Music Disc Mall",
+              "Music Disc Mellohi",
+              "Music Disc Stal",
+              "Music Disc Strad",
+              "Music Disc Ward",
+              "Music Disc 11",
+              "Music Disc Wait",
+              "Music Disc Otherside",
+              "Music Disc 5"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Nitwit Useful Items",
+            "items": [
+              "Slime Ball",
+              "Snowball",
+              "Painting",
+              "Item Frame",
+              "Glow Item Frame",
+              "Dandelion",
+              "Poppy",
+              "Blue Orchid",
+              "Allium",
+              "Azure Bluet",
+              "Oxeye Daisy",
+              "Cornflower",
+              "Lily Of The Valley",
+              "Sunflower",
+              "Lilac",
+              "Rose Bush",
+              "Peony"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Nitwit Unwanted Items",
+            "items": [
               "Rotten Flesh",
-              "Spider Eye"
+              "Spider Eye",
+              "Fermented Spider Eye"
             ]
           }
         ]
@@ -64431,75 +65954,205 @@ window.VR_WIKI_DATA = {
         "profession": "None",
         "entries": [
           {
+            "id": "builtin.global.loved_emerald_block",
+            "rating": 3,
+            "ratingLabel": "+++",
             "reaction": "Loved",
+            "category": "Exceptional Valuables",
             "items": [
-              "Apple",
-              "Cake",
-              "Cookie",
-              "Honey Bottle",
-              "Music Disc 11",
-              "Music Disc 13",
-              "Music Disc 5",
-              "Music Disc Blocks",
-              "Music Disc Cat",
-              "Music Disc Chirp",
-              "Music Disc Creator",
-              "Music Disc Creator Music Box",
-              "Music Disc Far",
-              "Music Disc Mall",
-              "Music Disc Mellohi",
-              "Music Disc Otherside",
-              "Music Disc Pigstep",
-              "Music Disc Precipice",
-              "Music Disc Relic",
-              "Music Disc Stal",
-              "Music Disc Strad",
-              "Music Disc Wait",
-              "Music Disc Ward",
-              "Pumpkin Pie"
+              "Emerald Block"
             ]
           },
           {
+            "id": "builtin.global.loved_valuables",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Valuables",
+            "items": [
+              "Emerald",
+              "Diamond",
+              "Gold Ingot",
+              "Golden Apple",
+              "Enchanted Golden Apple",
+              "Experience Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.liked_safe_foods",
+            "rating": 1,
+            "ratingLabel": "+",
             "reaction": "Liked",
+            "category": "Safe Foods",
             "items": [
-              "Allium",
-              "Azure Bluet",
-              "Blue Orchid",
-              "Cornflower",
-              "Dandelion",
-              "Flower Pot",
-              "Glow Item Frame",
-              "Item Frame",
-              "Lilac",
-              "Lily Of The Valley",
-              "Oxeye Daisy",
-              "Painting",
-              "Peony",
-              "Poppy",
-              "Rose Bush",
-              "Slime Ball",
-              "Snowball",
-              "Sunflower"
+              "Bread",
+              "Sweet Berries",
+              "Glow Berries",
+              "Milk Bucket",
+              "Baked Potato",
+              "Carrot",
+              "Golden Carrot",
+              "Melon Slice"
             ]
           },
           {
-            "reaction": "Hated",
+            "id": "builtin.global.liked_village_goods",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Village Goods",
             "items": [
-              "Lava Bucket",
+              "Emerald Ore",
+              "Deepslate Emerald Ore",
+              "Lantern",
+              "Flower Pot",
+              "Torch",
+              "Campfire",
+              "Barrel",
+              "Chest",
+              "Crafting Table"
+            ]
+          },
+          {
+            "id": "builtin.global.neutral_everyday",
+            "rating": 0,
+            "ratingLabel": "0",
+            "reaction": "Neutral",
+            "category": "Everyday Items",
+            "items": [
+              "Dirt",
+              "Cobblestone",
+              "Stick",
+              "Bowl",
+              "Paper",
+              "Glass Bottle"
+            ]
+          },
+          {
+            "id": "builtin.global.disliked_unsafe",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Unpleasant Items",
+            "items": [
+              "Bone",
+              "Bone Meal",
+              "Dead Bush",
+              "Suspicious Stew",
+              "Cobweb"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_dangers",
+            "rating": -2,
+            "ratingLabel": "--",
+            "reaction": "Hated",
+            "category": "Dangerous Items",
+            "items": [
               "Poisonous Potato",
+              "Gunpowder",
+              "Fire Charge",
+              "Flint And Steel",
+              "Wither Rose",
+              "Pufferfish",
+              "Phantom Membrane",
+              "Magma Cream",
+              "Firework Rocket",
+              "Ominous Bottle",
+              "Ominous Trial Key"
+            ]
+          },
+          {
+            "id": "builtin.global.hated_hazards",
+            "rating": -3,
+            "ratingLabel": "---",
+            "reaction": "Hated",
+            "category": "Hostile Offerings",
+            "items": [
               "Tnt",
               "Tnt Minecart",
+              "Lava Bucket",
               "Wither Skeleton Skull"
             ]
           },
           {
-            "reaction": "Disliked",
+            "id": "builtin.nitwit.exceptional",
+            "rating": 3,
+            "ratingLabel": "+++",
+            "reaction": "Loved",
+            "category": "Nitwit Exceptional Favorites",
             "items": [
-              "Bone",
-              "Dead Bush",
-              "Fermented Spider Eye",
+              "Music Disc Pigstep",
+              "Music Disc Relic",
+              "Music Disc Creator",
+              "Music Disc Creator Music Box",
+              "Music Disc Precipice"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.loved",
+            "rating": 2,
+            "ratingLabel": "++",
+            "reaction": "Loved",
+            "category": "Nitwit Favorites",
+            "items": [
+              "Cookie",
+              "Cake",
+              "Pumpkin Pie",
+              "Honey Bottle",
+              "Apple",
+              "Music Disc 13",
+              "Music Disc Cat",
+              "Music Disc Blocks",
+              "Music Disc Chirp",
+              "Music Disc Far",
+              "Music Disc Mall",
+              "Music Disc Mellohi",
+              "Music Disc Stal",
+              "Music Disc Strad",
+              "Music Disc Ward",
+              "Music Disc 11",
+              "Music Disc Wait",
+              "Music Disc Otherside",
+              "Music Disc 5"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.liked",
+            "rating": 1,
+            "ratingLabel": "+",
+            "reaction": "Liked",
+            "category": "Nitwit Useful Items",
+            "items": [
+              "Slime Ball",
+              "Snowball",
+              "Painting",
+              "Item Frame",
+              "Glow Item Frame",
+              "Dandelion",
+              "Poppy",
+              "Blue Orchid",
+              "Allium",
+              "Azure Bluet",
+              "Oxeye Daisy",
+              "Cornflower",
+              "Lily Of The Valley",
+              "Sunflower",
+              "Lilac",
+              "Rose Bush",
+              "Peony"
+            ]
+          },
+          {
+            "id": "builtin.nitwit.disliked",
+            "rating": -1,
+            "ratingLabel": "-",
+            "reaction": "Disliked",
+            "category": "Nitwit Unwanted Items",
+            "items": [
               "Rotten Flesh",
-              "Spider Eye"
+              "Spider Eye",
+              "Fermented Spider Eye"
             ]
           }
         ]
@@ -68096,12 +69749,12 @@ window.VR_WIKI_DATA = {
     }
   ],
   "stats": {
-    "dialogueLinesEstimate": 82448,
+    "dialogueLinesEstimate": 82757,
     "dialogueLineBreakdown": {
-      "dialogue": 80749,
-      "forcedDialogue": 375,
+      "dialogue": 80909,
+      "forcedDialogue": 551,
       "dialogueTrees": 0,
-      "questModules": 1324
+      "questModules": 1297
     }
   }
 };
